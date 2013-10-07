@@ -8,7 +8,7 @@
     <description/>
     <version>1.0</version>
     <vendor/>
-    <configurationParameters/>
+    <configurationParameters searchStrategy="default_fallback"/>
     <configurationParameterSettings/>
     <typeSystemDescription>
       <imports>
