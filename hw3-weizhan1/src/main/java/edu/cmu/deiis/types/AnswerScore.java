@@ -1,39 +1,46 @@
 
-
-/* First created by JCasGen Wed Sep 11 13:44:28 EDT 2013 */
+/* First created by JCasGen Sun Sep 22 22:11:00 EDT 2013 */
 package edu.cmu.deiis.types;
 
-import org.apache.uima.jcas.JCas; 
+import org.apache.uima.jcas.JCas;
 import org.apache.uima.jcas.JCasRegistry;
 import org.apache.uima.jcas.cas.TOP_Type;
 
-
-
 /** 
- * Updated by JCasGen Wed Sep 11 13:44:28 EDT 2013
- * XML source: /home/diwang/ur-workspace/deiis-f13-homework/src/main/resources/desc/deiis_types.xml
+ * Updated by JCasGen Sun Oct 06 21:09:52 EDT 2013
+ * XML source: /Users/indri/git/hw2/hw2-weizhan1/src/main/resources/hw2-weizhan1-aae.xml
  * @generated */
-public class AnswerScore extends Annotation {
-  /** @generated
-   * @ordered 
+public class AnswerScore extends Annotation implements Comparable{
+  /**
+   * @generated
+   * @ordered
    */
-  @SuppressWarnings ("hiding")
+  @SuppressWarnings("hiding")
   public final static int typeIndexID = JCasRegistry.register(AnswerScore.class);
-  /** @generated
-   * @ordered 
+
+  /**
+   * @generated
+   * @ordered
    */
-  @SuppressWarnings ("hiding")
+  @SuppressWarnings("hiding")
   public final static int type = typeIndexID;
-  /** @generated  */
+
+  /** @generated */
   @Override
-  public              int getTypeIndexID() {return typeIndexID;}
+  public int getTypeIndexID() {return typeIndexID;}
  
-  /** Never called.  Disable default constructor
-   * @generated */
+  /**
+   * Never called. Disable default constructor
+   * 
+   * @generated
+   */
   protected AnswerScore() {/* intentionally empty block */}
     
-  /** Internal - constructor used by generator 
-   * @generated */
+  /**
+   * Internal - constructor used by generator
+   * 
+   * @generated
+   */
   public AnswerScore(int addr, TOP_Type type) {
     super(addr, type);
     readObject();
@@ -45,7 +52,7 @@ public class AnswerScore extends Annotation {
     readObject();   
   } 
 
-  /** @generated */  
+  /** @generated */
   public AnswerScore(JCas jcas, int begin, int end) {
     super(jcas);
     setBegin(begin);
@@ -53,48 +60,65 @@ public class AnswerScore extends Annotation {
     readObject();
   }   
 
-  /** <!-- begin-user-doc -->
-    * Write your own initialization here
-    * <!-- end-user-doc -->
+  /** <!-- begin-user-doc --> Write your own initialization here <!-- end-user-doc -->
   @generated modifiable */
-  private void readObject() {/*default - does nothing empty block */}
-     
- 
-    
-  //*--------------*
-  //* Feature: score
+  private void readObject() {/* default - does nothing empty block */
+  }
 
-  /** getter for score - gets 
-   * @generated */
+  // *--------------*
+  // * Feature: score
+
+  /**
+   * getter for score - gets
+   * 
+   * @generated
+   */
   public double getScore() {
     if (AnswerScore_Type.featOkTst && ((AnswerScore_Type)jcasType).casFeat_score == null)
       jcasType.jcas.throwFeatMissing("score", "edu.cmu.deiis.types.AnswerScore");
     return jcasType.ll_cas.ll_getDoubleValue(addr, ((AnswerScore_Type)jcasType).casFeatCode_score);}
     
-  /** setter for score - sets  
-   * @generated */
+  /**
+   * setter for score - sets
+   * 
+   * @generated
+   */
   public void setScore(double v) {
     if (AnswerScore_Type.featOkTst && ((AnswerScore_Type)jcasType).casFeat_score == null)
       jcasType.jcas.throwFeatMissing("score", "edu.cmu.deiis.types.AnswerScore");
     jcasType.ll_cas.ll_setDoubleValue(addr, ((AnswerScore_Type)jcasType).casFeatCode_score, v);}    
    
     
-  //*--------------*
-  //* Feature: answer
+  // *--------------*
+  // * Feature: answer
 
-  /** getter for answer - gets 
-   * @generated */
+  /**
+   * getter for answer - gets
+   * 
+   * @generated
+   */
   public Answer getAnswer() {
     if (AnswerScore_Type.featOkTst && ((AnswerScore_Type)jcasType).casFeat_answer == null)
       jcasType.jcas.throwFeatMissing("answer", "edu.cmu.deiis.types.AnswerScore");
     return (Answer)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefValue(addr, ((AnswerScore_Type)jcasType).casFeatCode_answer)));}
     
-  /** setter for answer - sets  
-   * @generated */
+  /**
+   * setter for answer - sets
+   * 
+   * @generated
+   */
   public void setAnswer(Answer v) {
     if (AnswerScore_Type.featOkTst && ((AnswerScore_Type)jcasType).casFeat_answer == null)
       jcasType.jcas.throwFeatMissing("answer", "edu.cmu.deiis.types.AnswerScore");
     jcasType.ll_cas.ll_setRefValue(addr, ((AnswerScore_Type)jcasType).casFeatCode_answer, jcasType.ll_cas.ll_getFSRef(v));}    
-  }
+                @Override
+  public int compareTo(Object arg0) {
+    AnswerScore a = (AnswerScore) arg0;
+    if (a.getScore() > this.getScore())
+      return 1;
+    else if (a.getScore() < this.getScore())
+      return -1;
+    return 0;
 
-    
+  }
+}
