@@ -2,7 +2,7 @@
 
 <typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
   <name>deiis_types</name>
-  <description/>
+  <description>Expanded type system.</description>
   <version>1.0</version>
   <vendor/>
   <types>
