@@ -11,8 +11,8 @@ import org.apache.uima.jcas.cas.StringArray;
 
 
 /** 
- * Updated by JCasGen Sun Oct 06 23:39:55 EDT 2013
- * XML source: /Users/indri/git/hw3-weizhan1/hw3-weizhan1/src/main/resources/descriptors/deiis_types.xml
+ * Updated by JCasGen Sun Oct 06 23:47:25 EDT 2013
+ * XML source: /Users/indri/git/hw3-weizhan1/hw3-weizhan1/src/main/resources/descriptors/hw2-CasConsumer.xml
  * @generated */
 public class Question extends Annotation {
   /** @generated
