@@ -7,8 +7,8 @@ import org.apache.uima.jcas.JCasRegistry;
 import org.apache.uima.jcas.cas.TOP_Type;
 
 /** 
- * Updated by JCasGen Tue Oct 08 12:28:11 EDT 2013
- * XML source: /Users/indri/git/hw3-weizhan1/hw3-weizhan1/src/main/resources/descriptors/deiis_types.xml
+ * Updated by JCasGen Tue Oct 08 13:52:37 EDT 2013
+ * XML source: /Users/indri/git/hw3-weizhan1/hw3-weizhan1/src/main/resources/hw2-weizhan1-aae.xml
  * @generated */
 public class Token extends Annotation implements Comparable
 {
@@ -160,7 +160,7 @@ public class Token extends Annotation implements Comparable
     if (Token_Type.featOkTst && ((Token_Type)jcasType).casFeat_token == null)
       jcasType.jcas.throwFeatMissing("token", "edu.cmu.deiis.types.Token");
     jcasType.ll_cas.ll_setStringValue(addr, ((Token_Type)jcasType).casFeatCode_token, v);}    
-                                                    @Override
+                                                      @Override
   public int compareTo(Object t) {
     if (this.getBegin() != ((Token) t).getBegin())
       return this.getBegin() - ((Token) t).getBegin();

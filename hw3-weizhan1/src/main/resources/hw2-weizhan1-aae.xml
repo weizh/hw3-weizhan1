@@ -19,7 +19,10 @@
     <delegateAnalysisEngine key="WordFeatureAnnotator">
       <import name="descriptors.WordFeatureAnnotator"/>
     </delegateAnalysisEngine>
-    </delegateAnalysisEngineSpecifiers>
+    <delegateAnalysisEngine key="GenAnswerScoreAnnotatorWithClearTK">
+      <import name="descriptors.GenAnswerScoreAnnotatorWithClearTK"/>
+    </delegateAnalysisEngine>
+  </delegateAnalysisEngineSpecifiers>
   <analysisEngineMetaData>
     <name>hw2-weizhan1-aae</name>
     <description/>
@@ -84,7 +87,8 @@
         <node>NGramAnnotator</node>
         <node>NGramAnnotator2</node>
         <node>NGramAnnotator3</node>
-        </fixedFlow>
+        <node>GenAnswerScoreAnnotatorWithClearTK</node>
+      </fixedFlow>
     </flowConstraints>
     <typePriorities/>
     <fsIndexCollection/>

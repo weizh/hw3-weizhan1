@@ -10,8 +10,8 @@ import org.apache.uima.jcas.cas.TOP_Type;
 
 
 /** 
- * Updated by JCasGen Tue Oct 08 12:28:11 EDT 2013
- * XML source: /Users/indri/git/hw3-weizhan1/hw3-weizhan1/src/main/resources/descriptors/deiis_types.xml
+ * Updated by JCasGen Tue Oct 08 13:52:37 EDT 2013
+ * XML source: /Users/indri/git/hw3-weizhan1/hw3-weizhan1/src/main/resources/hw2-weizhan1-aae.xml
  * @generated */
 public class TerminalTreebankNode extends TreebankNode {
   /** @generated

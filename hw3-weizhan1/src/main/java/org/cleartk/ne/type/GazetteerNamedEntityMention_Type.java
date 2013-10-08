@@ -11,7 +11,7 @@ import org.apache.uima.cas.impl.TypeImpl;
 import org.apache.uima.cas.Type;
 
 /** 
- * Updated by JCasGen Tue Oct 08 12:28:11 EDT 2013
+ * Updated by JCasGen Tue Oct 08 13:52:37 EDT 2013
  * @generated */
 public class GazetteerNamedEntityMention_Type extends NamedEntityMention_Type {
   /** @generated */
