@@ -98,3 +98,9 @@ Caused by: java.net.BindException: Address already in use
 2013-10-08 15:31:39,593 [main           ] INFO  TransportServerThreadSupport   - Listening for connections at: tcp://new-host-3.home:61616
 2013-10-08 15:31:39,593 [main           ] INFO  TransportConnector             - Connector openwire Started
 2013-10-08 15:31:39,595 [main           ] INFO  BrokerService                  - ActiveMQ JMS Message Broker (localhost, ID:new-host-3.home-51565-1381260699425-0:0) started
+2013-10-08 15:43:01,460 [MQ ShutdownHook] INFO  BrokerService                  - ActiveMQ Message Broker (localhost, ID:new-host-3.home-51565-1381260699425-0:0) is shutting down
+2013-10-08 15:43:01,460 [Thread-4       ] INFO  BrokerService                  - ActiveMQ Message Broker (localhost, ID:new-host-3.home-51565-1381260699425-0:0) is shutting down
+2013-10-08 15:43:01,461 [MQ ShutdownHook] INFO  TransportConnector             - Connector openwire Stopped
+2013-10-08 15:43:01,542 [MQ ShutdownHook] INFO  BrokerService                  - ActiveMQ JMS Message Broker (localhost, ID:new-host-3.home-51565-1381260699425-0:0) stopped
+2013-10-08 15:43:02,356 [Thread-4       ] INFO  TransportConnector             - Connector openwire Stopped
+2013-10-08 15:43:02,356 [Thread-4       ] INFO  BrokerService                  - ActiveMQ JMS Message Broker (localhost, ID:new-host-3.home-51565-1381260699425-0:0) stopped
