@@ -1,0 +1,100 @@
+2013-10-08 14:47:11,081 [main           ] INFO  BrokerService                  - Using Persistence Adapter: MemoryPersistenceAdapter
+2013-10-08 14:47:11,138 [main           ] INFO  BrokerService                  - ActiveMQ 5.4.1 JMS Message Broker (localhost) is starting
+2013-10-08 14:47:11,138 [main           ] INFO  BrokerService                  - For help or more information please see: http://activemq.apache.org/
+2013-10-08 14:47:11,154 [JMX connector  ] INFO  ManagementContext              - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2013-10-08 14:47:11,471 [main           ] INFO  TransportServerThreadSupport   - Listening for connections at: tcp://new-host-3.home:61616
+2013-10-08 14:47:11,471 [main           ] INFO  TransportConnector             - Connector openwire Started
+2013-10-08 14:47:11,474 [main           ] INFO  BrokerService                  - ActiveMQ JMS Message Broker (localhost, ID:new-host-3.home-51186-1381258031186-0:0) started
+2013-10-08 15:22:52,343 [main           ] INFO  BrokerService                  - Using Persistence Adapter: MemoryPersistenceAdapter
+2013-10-08 15:22:52,370 [main           ] INFO  BrokerService                  - ActiveMQ 5.4.1 JMS Message Broker (localhost) is starting
+2013-10-08 15:22:52,370 [main           ] INFO  BrokerService                  - For help or more information please see: http://activemq.apache.org/
+2013-10-08 15:22:52,555 [main           ] ERROR BrokerService                  - Failed to start ActiveMQ JMS Message Broker. Reason: java.io.IOException: Transport Connector could not be registered in JMX: Failed to bind to server socket: tcp://0.0.0.0:61616 due to: java.net.BindException: Address already in use
+java.io.IOException: Transport Connector could not be registered in JMX: Failed to bind to server socket: tcp://0.0.0.0:61616 due to: java.net.BindException: Address already in use
+	at org.apache.activemq.util.IOExceptionSupport.create(IOExceptionSupport.java:27)
+	at org.apache.activemq.broker.BrokerService.registerConnectorMBean(BrokerService.java:1661)
+	at org.apache.activemq.broker.BrokerService.startTransportConnector(BrokerService.java:2119)
+	at org.apache.activemq.broker.BrokerService.startAllConnectors(BrokerService.java:2069)
+	at org.apache.activemq.broker.BrokerService.start(BrokerService.java:518)
+	at org.apache.activemq.xbean.XBeanBrokerService.afterPropertiesSet(XBeanBrokerService.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeCustomInitMethod(AbstractAutowireCapableBeanFactory.java:1536)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1477)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:574)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:425)
+	at org.apache.xbean.spring.context.ResourceXmlApplicationContext.<init>(ResourceXmlApplicationContext.java:64)
+	at org.apache.xbean.spring.context.ResourceXmlApplicationContext.<init>(ResourceXmlApplicationContext.java:52)
+	at org.apache.activemq.xbean.XBeanBrokerFactory.createApplicationContext(XBeanBrokerFactory.java:96)
+	at org.apache.activemq.xbean.XBeanBrokerFactory.createBroker(XBeanBrokerFactory.java:52)
+	at org.apache.activemq.broker.BrokerFactory.createBroker(BrokerFactory.java:71)
+	at org.apache.activemq.broker.BrokerFactory.createBroker(BrokerFactory.java:54)
+	at org.apache.activemq.console.command.StartCommand.startBroker(StartCommand.java:115)
+	at org.apache.activemq.console.command.StartCommand.runTask(StartCommand.java:91)
+	at org.apache.activemq.console.command.AbstractCommand.execute(AbstractCommand.java:57)
+	at org.apache.activemq.console.command.ShellCommand.runTask(ShellCommand.java:143)
+	at org.apache.activemq.console.command.AbstractCommand.execute(AbstractCommand.java:57)
+	at org.apache.activemq.console.command.ShellCommand.main(ShellCommand.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.activemq.console.Main.runTaskClass(Main.java:251)
+	at org.apache.activemq.console.Main.main(Main.java:107)
+Caused by: java.io.IOException: Failed to bind to server socket: tcp://0.0.0.0:61616 due to: java.net.BindException: Address already in use
+	at org.apache.activemq.util.IOExceptionSupport.create(IOExceptionSupport.java:33)
+	at org.apache.activemq.transport.tcp.TcpTransportServer.bind(TcpTransportServer.java:138)
+	at org.apache.activemq.transport.tcp.TcpTransportFactory.doBind(TcpTransportFactory.java:60)
+	at org.apache.activemq.transport.TransportFactory.bind(TransportFactory.java:131)
+	at org.apache.activemq.broker.TransportConnector.createTransportServer(TransportConnector.java:310)
+	at org.apache.activemq.broker.TransportConnector.getServer(TransportConnector.java:143)
+	at org.apache.activemq.broker.TransportConnector.asManagedConnector(TransportConnector.java:103)
+	at org.apache.activemq.broker.BrokerService.registerConnectorMBean(BrokerService.java:1656)
+	... 38 more
+Caused by: java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.PlainSocketImpl.socketBind(PlainSocketImpl.java:521)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:414)
+	at java.net.ServerSocket.bind(ServerSocket.java:326)
+	at java.net.ServerSocket.<init>(ServerSocket.java:192)
+	at javax.net.DefaultServerSocketFactory.createServerSocket(ServerSocketFactory.java:170)
+	at org.apache.activemq.transport.tcp.TcpTransportServer.bind(TcpTransportServer.java:134)
+	... 44 more
+2013-10-08 15:22:52,562 [main           ] INFO  BrokerService                  - ActiveMQ Message Broker (localhost, null) is shutting down
+2013-10-08 15:22:52,563 [main           ] INFO  TransportConnector             - Connector openwire Stopped
+2013-10-08 15:22:52,589 [main           ] INFO  BrokerService                  - ActiveMQ JMS Message Broker (localhost, null) stopped
+2013-10-08 15:23:26,987 [Thread-4       ] INFO  BrokerService                  - ActiveMQ Message Broker (localhost, ID:new-host-3.home-51186-1381258031186-0:0) is shutting down
+2013-10-08 15:23:26,987 [MQ ShutdownHook] INFO  BrokerService                  - ActiveMQ Message Broker (localhost, ID:new-host-3.home-51186-1381258031186-0:0) is shutting down
+2013-10-08 15:23:26,988 [MQ ShutdownHook] INFO  TransportConnector             - Connector openwire Stopped
+2013-10-08 15:23:27,001 [MQ ShutdownHook] INFO  BrokerService                  - ActiveMQ JMS Message Broker (localhost, ID:new-host-3.home-51186-1381258031186-0:0) stopped
+2013-10-08 15:23:27,285 [Thread-4       ] INFO  TransportConnector             - Connector openwire Stopped
+2013-10-08 15:23:27,286 [Thread-4       ] INFO  BrokerService                  - ActiveMQ JMS Message Broker (localhost, ID:new-host-3.home-51186-1381258031186-0:0) stopped
+2013-10-08 15:23:34,631 [main           ] INFO  BrokerService                  - Using Persistence Adapter: MemoryPersistenceAdapter
+2013-10-08 15:23:34,633 [main           ] INFO  BrokerService                  - ActiveMQ 5.4.1 JMS Message Broker (localhost) is starting
+2013-10-08 15:23:34,634 [main           ] INFO  BrokerService                  - For help or more information please see: http://activemq.apache.org/
+2013-10-08 15:23:34,644 [JMX connector  ] INFO  ManagementContext              - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2013-10-08 15:23:34,799 [main           ] INFO  TransportServerThreadSupport   - Listening for connections at: tcp://new-host-3.home:61616
+2013-10-08 15:23:34,799 [main           ] INFO  TransportConnector             - Connector openwire Started
+2013-10-08 15:23:34,801 [main           ] INFO  BrokerService                  - ActiveMQ JMS Message Broker (localhost, ID:new-host-3.home-51515-1381260214649-0:0) started
+2013-10-08 15:31:12,897 [Thread-4       ] INFO  BrokerService                  - ActiveMQ Message Broker (localhost, ID:new-host-3.home-51515-1381260214649-0:0) is shutting down
+2013-10-08 15:31:12,897 [MQ ShutdownHook] INFO  BrokerService                  - ActiveMQ Message Broker (localhost, ID:new-host-3.home-51515-1381260214649-0:0) is shutting down
+2013-10-08 15:31:12,930 [Thread-4       ] INFO  TransportConnector             - Connector openwire Stopped
+2013-10-08 15:31:12,945 [Thread-4       ] INFO  BrokerService                  - ActiveMQ JMS Message Broker (localhost, ID:new-host-3.home-51515-1381260214649-0:0) stopped
+2013-10-08 15:31:14,694 [MQ ShutdownHook] INFO  TransportConnector             - Connector openwire Stopped
+2013-10-08 15:31:14,695 [MQ ShutdownHook] INFO  BrokerService                  - ActiveMQ JMS Message Broker (localhost, ID:new-host-3.home-51515-1381260214649-0:0) stopped
+2013-10-08 15:31:39,364 [main           ] INFO  BrokerService                  - Using Persistence Adapter: MemoryPersistenceAdapter
+2013-10-08 15:31:39,404 [main           ] INFO  BrokerService                  - ActiveMQ 5.4.1 JMS Message Broker (localhost) is starting
+2013-10-08 15:31:39,405 [main           ] INFO  BrokerService                  - For help or more information please see: http://activemq.apache.org/
+2013-10-08 15:31:39,426 [JMX connector  ] INFO  ManagementContext              - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2013-10-08 15:31:39,593 [main           ] INFO  TransportServerThreadSupport   - Listening for connections at: tcp://new-host-3.home:61616
+2013-10-08 15:31:39,593 [main           ] INFO  TransportConnector             - Connector openwire Started
+2013-10-08 15:31:39,595 [main           ] INFO  BrokerService                  - ActiveMQ JMS Message Broker (localhost, ID:new-host-3.home-51565-1381260699425-0:0) started
