@@ -7,9 +7,6 @@
     <delegateAnalysisEngine key="FileInputAnnotator">
       <import name="descriptors.FileInputAnnotator"/>
     </delegateAnalysisEngine>
-    <delegateAnalysisEngine key="WordFeatureAnnotator">
-      <import name="descriptors.WordFeatureAnnotator"/>
-    </delegateAnalysisEngine>
     <delegateAnalysisEngine key="NGramAnnotator">
       <import name="descriptors.NGramAnnotator"/>
     </delegateAnalysisEngine>
@@ -21,6 +18,9 @@
     </delegateAnalysisEngine>
     <delegateAnalysisEngine key="GenAnswerScoreAnnotator">
       <import name="descriptors.GenAnswerScoreAnnotator"/>
+    </delegateAnalysisEngine>
+    <delegateAnalysisEngine key="WordFeatureAnnotator">
+      <import name="descriptors.WordFeatureAnnotator"/>
     </delegateAnalysisEngine>
   </delegateAnalysisEngineSpecifiers>
   <analysisEngineMetaData>

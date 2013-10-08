@@ -7,10 +7,11 @@ import org.apache.uima.jcas.JCasRegistry;
 import org.apache.uima.jcas.cas.TOP_Type;
 
 /** 
- * Updated by JCasGen Mon Oct 07 01:11:17 EDT 2013
- * XML source: /Users/indri/git/hw3-weizhan1/hw3-weizhan1/src/main/resources/hw2-CasConsumer.xml
+ * Updated by JCasGen Mon Oct 07 17:46:38 EDT 2013
+ * XML source: /Users/indri/git/hw3-weizhan1/hw3-weizhan1/src/main/resources/hw2-weizhan1-aae.xml
  * @generated */
-public class AnswerScore extends Annotation implements Comparable{
+public class AnswerScore extends Annotation implements Comparable
+{
   /**
    * @generated
    * @ordered
@@ -111,7 +112,7 @@ public class AnswerScore extends Annotation implements Comparable{
     if (AnswerScore_Type.featOkTst && ((AnswerScore_Type)jcasType).casFeat_answer == null)
       jcasType.jcas.throwFeatMissing("answer", "edu.cmu.deiis.types.AnswerScore");
     jcasType.ll_cas.ll_setRefValue(addr, ((AnswerScore_Type)jcasType).casFeatCode_answer, jcasType.ll_cas.ll_getFSRef(v));}    
-                                        @Override
+                                              @Override
   public int compareTo(Object arg0) {
     AnswerScore a = (AnswerScore) arg0;
     if (a.getScore() > this.getScore())

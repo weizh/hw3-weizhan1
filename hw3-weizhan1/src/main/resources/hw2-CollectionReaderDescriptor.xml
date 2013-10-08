@@ -8,11 +8,35 @@
     <description/>
     <version>1.0</version>
     <vendor/>
-    <configurationParameters searchStrategy="default_fallback"/>
+    <configurationParameters searchStrategy="default_fallback">
+      <configurationParameter>
+        <name>InputDirectory</name>
+        <description>Input Directory
+</description>
+        <type>String</type>
+        <multiValued>false</multiValued>
+        <mandatory>false</mandatory>
+      </configurationParameter>
+      <configurationParameter>
+        <name>Encoding</name>
+        <description>Optional Encoding.</description>
+        <type>String</type>
+        <multiValued>false</multiValued>
+        <mandatory>false</mandatory>
+      </configurationParameter>
+      <configurationParameter>
+        <name>Language</name>
+        <description>Language of the input</description>
+        <type>String</type>
+        <multiValued>false</multiValued>
+        <mandatory>false</mandatory>
+      </configurationParameter>
+    </configurationParameters>
     <configurationParameterSettings/>
     <typeSystemDescription>
       <imports>
         <import name="descriptors.deiis_types"/>
+      <import name="org.apache.uima.examples.SourceDocumentInformation"/>
       </imports>
     </typeSystemDescription>
     <typePriorities/>

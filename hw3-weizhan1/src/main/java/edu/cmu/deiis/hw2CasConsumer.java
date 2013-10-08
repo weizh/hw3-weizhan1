@@ -1,5 +1,8 @@
 package edu.cmu.deiis;
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 
@@ -24,35 +27,38 @@ public class hw2CasConsumer extends CasConsumer_ImplBase implements TypeNameMap 
   public void processCas(CAS aCAS) throws ResourceProcessException {
 
     Question question = (Question) aCAS.getAnnotationIndex(Question).iterator().next();
-    
-     FSIterator<AnnotationFS> answerScoreIter = ( aCAS
-            .getAnnotationIndex(AnswerScore)).iterator();
 
-     ArrayList<AnswerScore> answerScores = new ArrayList<AnswerScore>();
+    FSIterator<AnnotationFS> answerScoreIter = (aCAS.getAnnotationIndex(AnswerScore)).iterator();
 
-     while (answerScoreIter.hasNext()) {
-       answerScores.add((edu.cmu.deiis.types.AnswerScore) answerScoreIter.next());
-     }
-     
-     int N=0;
-     for (AnswerScore answerScore : answerScores) 
-       if (answerScore.getAnswer().getIsCorrect()==true)
-         N++;
-     
-     //sort collection in descending order.
-     Collections.sort(answerScores);
-     
-     // output the result.
-     int i=0;
-     double agree = 0;
-     System.out.println("\nThe Evaluation begins for question : " + question.getCoveredText());
-     for(AnswerScore answerScore:answerScores){
-       if(i++>=N){System.out.println("P@N is " +agree/(double)N);break;}
-       if(answerScore.getAnswer().getIsCorrect()==true)agree+=1;
-       System.out.println("Answer number "+ i +" : " +answerScore.getAnswer().getCoveredText());
-       System.out.println("Generated score: "+answerScore.getScore());
-       System.out.println("Gold label :" +answerScore.getAnswer().getIsCorrect());
-     }
+    ArrayList<AnswerScore> answerScores = new ArrayList<AnswerScore>();
+
+    while (answerScoreIter.hasNext()) {
+      answerScores.add((edu.cmu.deiis.types.AnswerScore) answerScoreIter.next());
+    }
+
+    int N = 0;
+    for (AnswerScore answerScore : answerScores)
+      if (answerScore.getAnswer().getIsCorrect() == true)
+        N++;
+
+    // sort collection in descending order.
+    Collections.sort(answerScores);
+
+      // output the result.
+      int i = 0;
+      double agree = 0;
+      System.out.println("\nThe Evaluation begins for question : " + question.getCoveredText());
+      for (AnswerScore answerScore : answerScores) {
+        if (i++ >= N) {
+          System.out.println("P@N is " + agree / (double) N);
+          break;
+        }
+        if (answerScore.getAnswer().getIsCorrect() == true)
+          agree += 1;
+        System.out.println("Answer number " + i + " : " + answerScore.getAnswer().getCoveredText());
+        System.out.println("Generated score: " + answerScore.getScore());
+        System.out.println("Gold label :" + answerScore.getAnswer().getIsCorrect());
+      }
 
   }
 

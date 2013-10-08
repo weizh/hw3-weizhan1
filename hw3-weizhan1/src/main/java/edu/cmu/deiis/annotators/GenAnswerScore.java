@@ -179,6 +179,7 @@ public class GenAnswerScore extends CasAnnotator_ImplBase implements TypeNameMap
     // output the result.
     int i=0;
     double agree = 0;
+    System.out.println("This is from the GenAnswerScore model:");
     System.out.println("\nThe Evaluation begins for question : " + question.getCoveredText());
     for(AnswerScore answerScore:answerScores){
       if(i++>=N){System.out.println("P@N is " +agree/(double)N);break;}

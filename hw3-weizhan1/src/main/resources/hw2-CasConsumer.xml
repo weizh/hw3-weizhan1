@@ -11,10 +11,7 @@
     <configurationParameters/>
     <configurationParameterSettings/>
     <typeSystemDescription>
-      <imports>
-        <import location="/Users/indri/git/hw3-weizhan1/hw3-weizhan1/src/main/resources/descriptors/deiis_types.xml"/>
-      </imports>
-    </typeSystemDescription>
+      </typeSystemDescription>
     <typePriorities/>
     <fsIndexCollection/>
     <capabilities>
