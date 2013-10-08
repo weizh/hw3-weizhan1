@@ -95,4 +95,8 @@
 			<version>1.4_rc3</version>
 		</dependency>
 	</dependencies>
+	<scm>
+		<connection>scm:git:git@github.com:weizh/hw3-weizhan1.git</connection>
+		<developerConnection>scm:git:git@github.com:weizh/hw3-weizhan1.git</developerConnection>
+	</scm>
 </project>
