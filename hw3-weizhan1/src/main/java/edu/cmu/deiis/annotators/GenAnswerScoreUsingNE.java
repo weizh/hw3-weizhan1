@@ -215,7 +215,7 @@ public class GenAnswerScoreUsingNE extends CasAnnotator_ImplBase implements Type
     int end   = sent.getEnd();
     AnnotationIndex neList = null;
     try {
-      neList = aCAS.getJCas().getAnnotationIndex(sent.type);
+      neList = aCAS.getJCas().getAnnotationIndex(NamedEntityMention.type);
     } catch (CASRuntimeException e) {
       // TODO Auto-generated catch block
       e.printStackTrace();

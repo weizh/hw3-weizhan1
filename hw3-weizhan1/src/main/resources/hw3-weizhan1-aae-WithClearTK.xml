@@ -19,8 +19,8 @@
     <delegateAnalysisEngine key="WordFeatureAnnotator">
       <import name="descriptors.WordFeatureAnnotator"/>
     </delegateAnalysisEngine>
-    <delegateAnalysisEngine key="GenAnswerScoreAnnotator">
-      <import name="descriptors.GenAnswerScoreAnnotator"/>
+    <delegateAnalysisEngine key="GenAnswerScoreAnnotatorWithClearTK">
+      <import name="descriptors.GenAnswerScoreAnnotatorWithClearTK"/>
     </delegateAnalysisEngine>
   </delegateAnalysisEngineSpecifiers>
   <analysisEngineMetaData>
@@ -87,7 +87,7 @@
         <node>NGramAnnotator</node>
         <node>NGramAnnotator2</node>
         <node>NGramAnnotator3</node>
-        <node>GenAnswerScoreAnnotator</node>
+        <node>GenAnswerScoreAnnotatorWithClearTK</node>
       </fixedFlow>
     </flowConstraints>
     <typePriorities/>
