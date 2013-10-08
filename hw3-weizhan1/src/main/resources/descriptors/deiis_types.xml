@@ -5,6 +5,9 @@
   <description>Expanded type system.</description>
   <version>1.0</version>
   <vendor/>
+  <imports>
+    <import name="org.cleartk.TypeSystem"/>
+  </imports>
   <types>
     <typeDescription>
       <name>edu.cmu.deiis.types.Annotation</name>

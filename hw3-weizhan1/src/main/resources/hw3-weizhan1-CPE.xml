@@ -3,7 +3,7 @@
     <collectionReader>
         <collectionIterator>
             <descriptor>
-                <import location="hw2-CollectionReaderDescriptor.xml"/>
+                <import location="descriptors/CollectionReaderDescriptor.xml"/>
             </descriptor>
             <configurationParameterSettings>
                 <nameValuePair>
@@ -40,9 +40,9 @@
             </errorHandling>
             <checkpoint batch="10000" time="1000ms"/>
         </casProcessor>
-        <casProcessor deployment="integrated" name="hw2-CasConsumer">
+        <casProcessor deployment="integrated" name="descriptors/CasConsumer">
             <descriptor>
-                <import location="hw2-CasConsumer.xml"/>
+                <import location="descriptors/CasConsumer.xml"/>
             </descriptor>
             <deploymentParameters/>
             <errorHandling>
