@@ -16,11 +16,11 @@
     <delegateAnalysisEngine key="NGramAnnotator3">
       <import name="descriptors.NGramAnnotator"/>
     </delegateAnalysisEngine>
-    <delegateAnalysisEngine key="WordFeatureAnnotator">
-      <import name="descriptors.WordFeatureAnnotator"/>
-    </delegateAnalysisEngine>
     <delegateAnalysisEngine key="GenAnswerScoreAnnotator">
       <import name="descriptors.GenAnswerScoreAnnotator"/>
+    </delegateAnalysisEngine>
+    <delegateAnalysisEngine key="WordFeatureAnnotator">
+      <import name="descriptors.WordFeatureAnnotator"/>
     </delegateAnalysisEngine>
   </delegateAnalysisEngineSpecifiers>
   <analysisEngineMetaData>

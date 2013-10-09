@@ -10,8 +10,8 @@ import org.apache.uima.jcas.cas.TOP_Type;
 
 
 /** 
- * Updated by JCasGen Tue Oct 08 13:55:41 EDT 2013
- * XML source: /Users/indri/git/hw3-weizhan1/hw3-weizhan1/src/main/resources/hw3-weizhan1-aae-WithClearTK.xml
+ * Updated by JCasGen Wed Oct 09 00:45:08 EDT 2013
+ * XML source: /Users/indri/git/hw3-weizhan1/hw3-weizhan1/src/main/resources/hw2-weizhan1-aae.xml
  * @generated */
 public class TopDependencyNode extends DependencyNode {
   /** @generated

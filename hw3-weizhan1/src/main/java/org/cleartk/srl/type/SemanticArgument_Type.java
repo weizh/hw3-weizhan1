@@ -13,7 +13,7 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 
 /** 
- * Updated by JCasGen Tue Oct 08 13:55:41 EDT 2013
+ * Updated by JCasGen Wed Oct 09 00:45:08 EDT 2013
  * @generated */
 public class SemanticArgument_Type extends Argument_Type {
   /** @generated */

@@ -14,7 +14,7 @@ import org.apache.uima.cas.Feature;
 import org.cleartk.score.type.ScoredAnnotation_Type;
 
 /** 
- * Updated by JCasGen Tue Oct 08 13:55:41 EDT 2013
+ * Updated by JCasGen Wed Oct 09 00:45:08 EDT 2013
  * @generated */
 public class Token_Type extends ScoredAnnotation_Type {
   /** @generated */

@@ -11,7 +11,7 @@ import org.apache.uima.cas.impl.TypeImpl;
 import org.apache.uima.cas.Type;
 
 /** 
- * Updated by JCasGen Tue Oct 08 13:55:41 EDT 2013
+ * Updated by JCasGen Wed Oct 09 00:45:08 EDT 2013
  * @generated */
 public class TopDependencyNode_Type extends DependencyNode_Type {
   /** @generated */

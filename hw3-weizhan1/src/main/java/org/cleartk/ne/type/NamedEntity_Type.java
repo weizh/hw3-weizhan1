@@ -14,7 +14,7 @@ import org.apache.uima.cas.Feature;
 import org.cleartk.score.type.ScoredTOP_Type;
 
 /** 
- * Updated by JCasGen Tue Oct 08 13:55:40 EDT 2013
+ * Updated by JCasGen Wed Oct 09 00:45:07 EDT 2013
  * @generated */
 public class NamedEntity_Type extends ScoredTOP_Type {
   /** @generated */

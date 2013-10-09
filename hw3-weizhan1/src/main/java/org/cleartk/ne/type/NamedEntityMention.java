@@ -12,8 +12,8 @@ import org.cleartk.score.type.ScoredAnnotation;
 
 
 /** 
- * Updated by JCasGen Tue Oct 08 13:55:40 EDT 2013
- * XML source: /Users/indri/git/hw3-weizhan1/hw3-weizhan1/src/main/resources/hw3-weizhan1-aae-WithClearTK.xml
+ * Updated by JCasGen Wed Oct 09 00:45:07 EDT 2013
+ * XML source: /Users/indri/git/hw3-weizhan1/hw3-weizhan1/src/main/resources/hw2-weizhan1-aae.xml
  * @generated */
 public class NamedEntityMention extends ScoredAnnotation {
   /** @generated
