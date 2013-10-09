@@ -104,3 +104,16 @@ Caused by: java.net.BindException: Address already in use
 2013-10-08 15:43:01,542 [MQ ShutdownHook] INFO  BrokerService                  - ActiveMQ JMS Message Broker (localhost, ID:new-host-3.home-51565-1381260699425-0:0) stopped
 2013-10-08 15:43:02,356 [Thread-4       ] INFO  TransportConnector             - Connector openwire Stopped
 2013-10-08 15:43:02,356 [Thread-4       ] INFO  BrokerService                  - ActiveMQ JMS Message Broker (localhost, ID:new-host-3.home-51565-1381260699425-0:0) stopped
+2013-10-09 00:06:00,713 [main           ] INFO  BrokerService                  - Using Persistence Adapter: MemoryPersistenceAdapter
+2013-10-09 00:06:00,769 [main           ] INFO  BrokerService                  - ActiveMQ 5.4.1 JMS Message Broker (localhost) is starting
+2013-10-09 00:06:00,769 [main           ] INFO  BrokerService                  - For help or more information please see: http://activemq.apache.org/
+2013-10-09 00:06:00,864 [JMX connector  ] INFO  ManagementContext              - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2013-10-09 00:06:01,027 [main           ] INFO  TransportServerThreadSupport   - Listening for connections at: tcp://new-host-3.home:61616
+2013-10-09 00:06:01,027 [main           ] INFO  TransportConnector             - Connector openwire Started
+2013-10-09 00:06:01,030 [main           ] INFO  BrokerService                  - ActiveMQ JMS Message Broker (localhost, ID:new-host-3.home-53306-1381291560837-0:0) started
+2013-10-09 00:08:23,158 [Thread-4       ] INFO  BrokerService                  - ActiveMQ Message Broker (localhost, ID:new-host-3.home-53306-1381291560837-0:0) is shutting down
+2013-10-09 00:08:23,158 [MQ ShutdownHook] INFO  BrokerService                  - ActiveMQ Message Broker (localhost, ID:new-host-3.home-53306-1381291560837-0:0) is shutting down
+2013-10-09 00:08:23,162 [Thread-4       ] INFO  TransportConnector             - Connector openwire Stopped
+2013-10-09 00:08:23,223 [Thread-4       ] INFO  BrokerService                  - ActiveMQ JMS Message Broker (localhost, ID:new-host-3.home-53306-1381291560837-0:0) stopped
+2013-10-09 00:08:24,560 [MQ ShutdownHook] INFO  TransportConnector             - Connector openwire Stopped
+2013-10-09 00:08:24,561 [MQ ShutdownHook] INFO  BrokerService                  - ActiveMQ JMS Message Broker (localhost, ID:new-host-3.home-53306-1381291560837-0:0) stopped

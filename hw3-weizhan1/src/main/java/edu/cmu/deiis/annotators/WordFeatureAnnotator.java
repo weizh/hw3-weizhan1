@@ -76,7 +76,7 @@ public class WordFeatureAnnotator extends CasAnnotator_ImplBase implements TypeN
   @Override
   public void initialize(UimaContext aContext) throws ResourceInitializationException {
     super.initialize(aContext);
-    String NERPath = "src/main/resources/stanfordModels/english.all.3class.distsim.crf.ser.gz";
+    String NERPath = "stanfordModels/english.all.3class.distsim.crf.ser.gz";
     
     // ner initialization
     nerTagger = CRFClassifier.getClassifierNoExceptions(NERPath);

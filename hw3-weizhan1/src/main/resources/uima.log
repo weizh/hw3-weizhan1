@@ -1,11 +1,11 @@
-10/8/13 3:31:26 PM - 10: org.apache.uima.adapter.jms.service.UIMA_Service.initialize(68): INFO: UIMA-AS version 2.4.0
-10/8/13 3:31:29 PM - 10: org.apache.uima.aae.controller.BaseAnalysisEngineController.logPlatformInfo: INFO: 
+10/9/13 12:09:24 AM - 10: org.apache.uima.adapter.jms.service.UIMA_Service.initialize(68): INFO: UIMA-AS version 2.4.0
+10/9/13 12:09:25 AM - 10: org.apache.uima.aae.controller.BaseAnalysisEngineController.logPlatformInfo: INFO: 
 +------------------------------------------------------------------
-                   Starting UIMA AS Service - PID: 1698
+                   Starting UIMA AS Service - PID: 2833
 +------------------------------------------------------------------
 + Service Name:hw2-weizhan1-aae
 + Service Queue Name:weizhan1Queue
-+ Service Start Time:08 Oct 2013 15:31:25 
++ Service Start Time:09 Oct 2013 00:09:23 
 + UIMA AS Version:2.4.0
 + UIMA Core Version:2.4.0
 + OS Name:Mac OS X
@@ -15,18 +15,27 @@
 + JVM Vendor:Apple Inc.
 + JVM Name:Java HotSpot(TM) 64-Bit Server VM
 + JVM Version:20.51-b01-457
-+ JVM Input Args:[-DVNS_HOST=localhost, -DVNS_PORT=9000, -Duima.home=/usr/local/apache-uima-as-2.4.0, -Duima.datapath=, -Djava.util.logging.config.file=/usr/local/apache-uima-as-2.4.0/config/Logger.properties, -Duima.tools.cvd.manpath.notset, -Xms128M, -Xmx800M, -Dlog4j.configuration=file:/usr/local/apache-uima-as-2.4.0/as_config/uimaAsLog4j.properties, -DUimaBootstrapSuppressClassPathDisplay, -Dorg.apache.uima.jarpath=:/usr/local/apache-uima-as-2.4.0/examples/resources:/usr/local/apache-uima-as-2.4.0/lib::/usr/local/apache-uima-as-2.4.0/lib/xmlbeans:/usr/local/apache-uima-as-2.4.0/apache-activemq-5.4.1:/usr/local/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib:/usr/local/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/optional:]
++ JVM Input Args:[-DVNS_HOST=localhost, -DVNS_PORT=9000, -Duima.home=/usr/local/apache-uima-as-2.4.0, -Duima.datapath=, -Djava.util.logging.config.file=/usr/local/apache-uima-as-2.4.0/config/Logger.properties, -Duima.tools.cvd.manpath.notset, -Xms128M, -Xmx800M, -Dlog4j.configuration=file:/usr/local/apache-uima-as-2.4.0/as_config/uimaAsLog4j.properties, -DUimaBootstrapSuppressClassPathDisplay, -Dorg.apache.uima.jarpath=/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/:/users/indri/git/hw3-weizhan1/hw3-weizhan1/target/:/usr/local/apache-uima-as-2.4.0/examples/resources:/usr/local/apache-uima-as-2.4.0/lib::/usr/local/apache-uima-as-2.4.0/lib/xmlbeans:/usr/local/apache-uima-as-2.4.0/apache-activemq-5.4.1:/usr/local/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib:/usr/local/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/optional:]
 + JVM Classpath:/usr/local/apache-uima-as-2.4.0/lib/uimaj-bootstrap.jar
-+ JVM Loaded Jars:/usr/local/apache-uima-as-2.4.0/lib/uimaj-bootstrap.jar:/usr/local/apache-uima-as-2.4.0/examples/resources/:/usr/local/apache-uima-as-2.4.0/lib/jVinci.jar:/usr/local/apache-uima-as-2.4.0/lib/uima-adapter-soap.jar:/usr/local/apache-uima-as-2.4.0/lib/uima-adapter-vinci.jar:/usr/local/apache-uima-as-2.4.0/lib/uima-core.jar:/usr/local/apache-uima-as-2.4.0/lib/uima-cpe.jar:/usr/local/apache-uima-as-2.4.0/lib/uima-document-annotation.jar:/usr/local/apache-uima-as-2.4.0/lib/uima-examples.jar:/usr/local/apache-uima-as-2.4.0/lib/uima-tools.jar:/usr/local/apache-uima-as-2.4.0/lib/uimaj-as-activemq.jar:/usr/local/apache-uima-as-2.4.0/lib/uimaj-as-camel.jar:/usr/local/apache-uima-as-2.4.0/lib/uimaj-as-core.jar:/usr/local/apache-uima-as-2.4.0/lib/uimaj-as-jms.jar:/usr/local/apache-uima-as-2.4.0/lib/xmlbeans.jar:/usr/local/apache-uima-as-2.4.0/apache-activemq-5.4.1/activemq-all-5.4.1.jar:/usr/local/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/activemq-camel-5.4.1.jar:/usr/local/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/activemq-console-5.4.1.jar:/usr/local/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/activemq-core-5.4.1.jar:/usr/local/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/activemq-optional-5.4.1.jar:/usr/local/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/activemq-spring-5.4.1.jar:/usr/local/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/commons-logging-1.1.1.jar:/usr/local/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar:/usr/local/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/geronimo-jms_1.1_spec-1.1.jar:/usr/local/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/kahadb-5.4.1.jar:/usr/local/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/spring-aop-3.0.3.RELEASE.jar:/usr/local/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/spring-asm-3.0.3.RELEASE.jar:/usr/local/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/spring-beans-3.0.3.RELEASE.jar:/usr/local/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/spring-context-3.0.3.RELEASE.jar:/usr/local/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/spring-core-3.0.3.RELEASE.jar:/usr/local/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/spring-expression-3.0.3.RELEASE.jar:/usr/local/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/spring-jms-3.0.3.RELEASE.jar:/usr/local/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/spring-tx-3.0.3.RELEASE.jar:/usr/local/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/xbean-spring-3.7.jar:/usr/local/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/optional/commons-codec-1.2.jar:/usr/local/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/optional/commons-httpclient-3.1.jar:/usr/local/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/optional/geronimo-servlet_2.5_spec-1.2.jar:/usr/local/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/optional/jetty-all-server-7.0.1.v20091125.jar:/usr/local/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/optional/log4j-1.2.14.jar:/usr/local/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/optional/xmlpull-1.1.3.4d_b4_min.jar:/usr/local/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/optional/xstream-1.3.1.jar:
++ JVM Loaded Jars:/usr/local/apache-uima-as-2.4.0/lib/uimaj-bootstrap.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/activation-1.1.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/activeio-core-3.1.2.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/activemq-all-5.4.1.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/activemq-camel-5.4.1.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/activemq-console-5.4.1.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/activemq-core-5.4.1.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/activemq-jaas-5.4.1.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/activemq-optional-5.4.1.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/activemq-pool-5.4.1.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/activemq-protobuf-1.1.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/activemq-spring-5.4.1.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/activemq-web-5.4.1.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/aopalliance-1.0.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/args4j-2.0.16.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/asm-3.1.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/asm-commons-3.1.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/asm-tree-3.1.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/axis-1.3.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/axis-jaxrpc-1.3.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/axis-saaj-1.3.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/camel-core-2.4.0.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/camel-jms-2.4.0.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/camel-spring-2.4.0.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/cleartk-stanford-corenlp-0.8.0.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/cleartk-type-system-1.2.0.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/cleartk-util-0.9.2.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/commons-codec-1.2.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/commons-collections-3.2.1.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/commons-discovery-0.2.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/commons-httpclient-3.1.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/commons-io-2.2.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/commons-lang-2.6.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/commons-logging-1.1.1.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/commons-logging-api-1.1.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/commons-management-1.0.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/commons-net-2.0.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/commons-pool-1.5.4.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/ejml-0.19.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/gentlyweb-utils-1.5.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/geronimo-activation_1.0.2_spec-1.2.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/geronimo-annotation_1.0_spec-1.1.1.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/geronimo-j2ee-management_1.1_spec-1.0.1.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/geronimo-jaspic_1.0_spec-1.0.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/geronimo-jms_1.1_spec-1.1.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/geronimo-jta_1.0.1B_spec-1.0.1.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/geronimo-jta_1.1_spec-1.1.1.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/geronimo-servlet_2.5_spec-1.2.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/guava-13.0.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/hppc-0.4.1.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/icu4j-4.0.1.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/jasypt-1.6.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/jaxb-api-2.2.7.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/jdom-1.0.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/jetty-all-server-7.0.1.v20091125.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/jetty-continuation-7.0.1.v20091125.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/jetty-http-7.0.1.v20091125.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/jetty-io-7.0.1.v20091125.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/jetty-security-7.0.1.v20091125.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/jetty-server-7.0.1.v20091125.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/jetty-servlet-7.0.1.v20091125.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/jetty-util-7.0.1.v20091125.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/jetty-webapp-7.0.1.v20091125.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/jetty-websocket-7.0.1.v20091125.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/jetty-xml-7.0.1.v20091125.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/joda-time-2.1.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/jollyday-0.4.7.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/josql-1.5.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/junit-4.5.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/jVinci-2.4.0.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/jwnl-1.4_rc3.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/kahadb-5.4.1.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/log4j-1.2.14.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/mail-1.4.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/org.osgi.core-4.1.0.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/oro-2.0.8.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/rome-0.8.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/servlet-api-2.5.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/spring-aop-3.0.3.RELEASE.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/spring-asm-3.0.3.RELEASE.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/spring-beans-3.0.3.RELEASE.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/spring-context-3.0.3.RELEASE.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/spring-context-support-3.0.3.RELEASE.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/spring-core-3.0.3.RELEASE.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/spring-expression-3.0.3.RELEASE.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/spring-jms-3.0.3.RELEASE.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/spring-osgi-core-1.2.1.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/spring-osgi-io-1.2.1.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/spring-tx-3.0.3.RELEASE.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/spring-web-3.0.3.RELEASE.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/spring-webmvc-3.0.3.RELEASE.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/stanford-corenlp-1.3.5-models.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/stanford-corenlp-3.2.0.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/stax-api-1.0.1.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/uimafit-1.4.0.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/uimafit-core-2.0.0.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/uimaj-adapter-soap-2.4.0.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/uimaj-adapter-vinci-2.4.0.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/uimaj-as-activemq-2.4.0.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/uimaj-as-core-2.4.0.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/uimaj-as-jms-2.4.0.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/uimaj-core-2.4.0.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/uimaj-cpe-2.4.0.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/uimaj-document-annotation-2.4.0.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/uimaj-examples-2.4.0.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/uimaj-tools-2.4.0.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/velocity-1.6.2.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/wsdl4j-1.5.1.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/xalan-2.7.0.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/xbean-spring-3.7.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/xercesImpl-2.8.0.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/xml-apis-1.3.03.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/xmlbeans-2.4.0.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/xmlpull-1.1.3.4d_b4_min.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/xom-1.2.5.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/xpp3_min-1.1.4c.jar:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/target/dependency/xstream-1.3.1.jar:/users/indri/git/hw3-weizhan1/hw3-weizhan1/target/hw3-weizhan1-0.0.2.jar:/usr/local/apache-uima-as-2.4.0/examples/resources/:/usr/local/apache-uima-as-2.4.0/lib/jVinci.jar:/usr/local/apache-uima-as-2.4.0/lib/uima-adapter-soap.jar:/usr/local/apache-uima-as-2.4.0/lib/uima-adapter-vinci.jar:/usr/local/apache-uima-as-2.4.0/lib/uima-core.jar:/usr/local/apache-uima-as-2.4.0/lib/uima-cpe.jar:/usr/local/apache-uima-as-2.4.0/lib/uima-document-annotation.jar:/usr/local/apache-uima-as-2.4.0/lib/uima-examples.jar:/usr/local/apache-uima-as-2.4.0/lib/uima-tools.jar:/usr/local/apache-uima-as-2.4.0/lib/uimaj-as-activemq.jar:/usr/local/apache-uima-as-2.4.0/lib/uimaj-as-camel.jar:/usr/local/apache-uima-as-2.4.0/lib/uimaj-as-core.jar:/usr/local/apache-uima-as-2.4.0/lib/uimaj-as-jms.jar:/usr/local/apache-uima-as-2.4.0/lib/xmlbeans.jar:/usr/local/apache-uima-as-2.4.0/apache-activemq-5.4.1/activemq-all-5.4.1.jar:/usr/local/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/activemq-camel-5.4.1.jar:/usr/local/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/activemq-console-5.4.1.jar:/usr/local/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/activemq-core-5.4.1.jar:/usr/local/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/activemq-optional-5.4.1.jar:/usr/local/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/activemq-spring-5.4.1.jar:/usr/local/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/commons-logging-1.1.1.jar:/usr/local/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar:/usr/local/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/geronimo-jms_1.1_spec-1.1.jar:/usr/local/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/kahadb-5.4.1.jar:/usr/local/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/spring-aop-3.0.3.RELEASE.jar:/usr/local/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/spring-asm-3.0.3.RELEASE.jar:/usr/local/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/spring-beans-3.0.3.RELEASE.jar:/usr/local/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/spring-context-3.0.3.RELEASE.jar:/usr/local/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/spring-core-3.0.3.RELEASE.jar:/usr/local/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/spring-expression-3.0.3.RELEASE.jar:/usr/local/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/spring-jms-3.0.3.RELEASE.jar:/usr/local/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/spring-tx-3.0.3.RELEASE.jar:/usr/local/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/xbean-spring-3.7.jar:/usr/local/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/optional/commons-codec-1.2.jar:/usr/local/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/optional/commons-httpclient-3.1.jar:/usr/local/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/optional/geronimo-servlet_2.5_spec-1.2.jar:/usr/local/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/optional/jetty-all-server-7.0.1.v20091125.jar:/usr/local/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/optional/log4j-1.2.14.jar:/usr/local/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/optional/xmlpull-1.1.3.4d_b4_min.jar:/usr/local/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/optional/xstream-1.3.1.jar:
 + JVM LIB_PATH:/usr/local/apache-uima-as-2.4.0/uimacpp/lib:/usr/local/apache-uima-as-2.4.0/uimacpp/examples/tutorial/src::.:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
 +------------------------------------------------------------------ 
-10/8/13 3:31:29 PM - 10: org.apache.uima.adapter.jms.activemq.JmsInputChannel.setEndpointName: INFO: top_level_input_queue_service_1 Service Starting - Listening for Messages 
-10/8/13 3:31:29 PM - 10: org.apache.uima.adapter.jms.activemq.SpringContainerDeployer.waitForServiceNotification: INFO: Uima EE Client Blocking - Awaiting Top Level Controller Initialization Notification
-10/8/13 3:31:29 PM - 11: org.apache.uima.aae.UimaAsThreadFactory$1.UimaAsThreadFactory.run(): INFO: Controller: hw2-weizhan1-aae Initializing AE instance on Thread Id: 15
-10/8/13 3:31:29 PM - 11: org.apache.uima.aae.controller.PrimitiveAnalysisEngineController_impl.initializeAnalysisEngine: WARNING: Service: hw2-weizhan1-aae Runtime Exception  
-10/8/13 3:31:29 PM - 11: org.apache.uima.aae.controller.PrimitiveAnalysisEngineController_impl.initializeAnalysisEngine: WARNING: 
-org.apache.uima.resource.ResourceInitializationException: An import could not be resolved.  No .xml file with name "descriptors.WordFeatureAnnotator" was found in the class path or data path. (Descriptor: file:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/src/main/resources/hw2-weizhan1-aae.xml)
-	at org.apache.uima.analysis_engine.impl.AggregateAnalysisEngine_impl.initialize(AggregateAnalysisEngine_impl.java:159)
+10/9/13 12:09:26 AM - 10: org.apache.uima.adapter.jms.activemq.JmsInputChannel.setEndpointName: INFO: top_level_input_queue_service_1 Service Starting - Listening for Messages 
+10/9/13 12:09:26 AM - 10: org.apache.uima.adapter.jms.activemq.SpringContainerDeployer.waitForServiceNotification: INFO: Uima EE Client Blocking - Awaiting Top Level Controller Initialization Notification
+10/9/13 12:09:26 AM - 11: org.apache.uima.aae.UimaAsThreadFactory$1.UimaAsThreadFactory.run(): INFO: Controller: hw2-weizhan1-aae Initializing AE instance on Thread Id: 15
+10/9/13 12:09:26 AM - 11: org.apache.uima.aae.controller.PrimitiveAnalysisEngineController_impl.initializeAnalysisEngine: WARNING: Service: hw2-weizhan1-aae Runtime Exception  
+10/9/13 12:09:26 AM - 11: org.apache.uima.aae.controller.PrimitiveAnalysisEngineController_impl.initializeAnalysisEngine: WARNING: 
+org.apache.uima.resource.ResourceInitializationException: Initialization of annotator class "edu.cmu.deiis.annotators.WordFeatureAnnotator" failed.  (Descriptor: jar:file:/users/indri/git/hw3-weizhan1/hw3-weizhan1/target/hw3-weizhan1-0.0.2.jar!/descriptors/WordFeatureAnnotator.xml)
+	at org.apache.uima.analysis_engine.impl.PrimitiveAnalysisEngine_impl.initializeAnalysisComponent(PrimitiveAnalysisEngine_impl.java:252)
+	at org.apache.uima.analysis_engine.impl.PrimitiveAnalysisEngine_impl.initialize(PrimitiveAnalysisEngine_impl.java:156)
+	at org.apache.uima.impl.AnalysisEngineFactory_impl.produceResource(AnalysisEngineFactory_impl.java:94)
+	at org.apache.uima.impl.CompositeResourceFactory_impl.produceResource(CompositeResourceFactory_impl.java:62)
+	at org.apache.uima.UIMAFramework.produceResource(UIMAFramework.java:269)
+	at org.apache.uima.UIMAFramework.produceAnalysisEngine(UIMAFramework.java:387)
+	at org.apache.uima.analysis_engine.asb.impl.ASB_impl.setup(ASB_impl.java:254)
+	at org.apache.uima.analysis_engine.impl.AggregateAnalysisEngine_impl.initASB(AggregateAnalysisEngine_impl.java:431)
+	at org.apache.uima.analysis_engine.impl.AggregateAnalysisEngine_impl.initializeAggregateAnalysisEngine(AggregateAnalysisEngine_impl.java:375)
+	at org.apache.uima.analysis_engine.impl.AggregateAnalysisEngine_impl.initialize(AggregateAnalysisEngine_impl.java:185)
 	at org.apache.uima.impl.AnalysisEngineFactory_impl.produceResource(AnalysisEngineFactory_impl.java:94)
 	at org.apache.uima.impl.CompositeResourceFactory_impl.produceResource(CompositeResourceFactory_impl.java:62)
 	at org.apache.uima.UIMAFramework.produceResource(UIMAFramework.java:269)
@@ -34,17 +43,33 @@ org.apache.uima.resource.ResourceInitializationException: An import could not be
 	at org.apache.uima.aae.controller.PrimitiveAnalysisEngineController_impl.initializeAnalysisEngine(PrimitiveAnalysisEngineController_impl.java:186)
 	at org.apache.uima.aae.UimaAsThreadFactory$1.run(UimaAsThreadFactory.java:114)
 	at java.lang.Thread.run(Thread.java:680)
-Caused by: org.apache.uima.util.InvalidXMLException: An import could not be resolved.  No .xml file with name "descriptors.WordFeatureAnnotator" was found in the class path or data path. (Descriptor: file:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/src/main/resources/hw2-weizhan1-aae.xml)
-	at org.apache.uima.resource.metadata.impl.Import_impl.findAbsoluteUrl(Import_impl.java:107)
-	at org.apache.uima.analysis_engine.impl.AnalysisEngineDescription_impl.resolveDelegateAnalysisEngineImports(AnalysisEngineDescription_impl.java:798)
-	at org.apache.uima.analysis_engine.impl.AnalysisEngineDescription_impl.resolveDelegateAnalysisEngineImports(AnalysisEngineDescription_impl.java:765)
-	at org.apache.uima.analysis_engine.impl.AnalysisEngineDescription_impl.getDelegateAnalysisEngineSpecifiers(AnalysisEngineDescription_impl.java:193)
-	at org.apache.uima.analysis_engine.impl.AggregateAnalysisEngine_impl.initialize(AggregateAnalysisEngine_impl.java:147)
-	... 7 more
+Caused by: java.lang.RuntimeException: java.io.FileNotFoundException: src/main/resources/stanfordModels/english.all.3class.distsim.crf.ser.gz (No such file or directory)
+	at edu.stanford.nlp.ie.AbstractSequenceClassifier.loadClassifierNoExceptions(AbstractSequenceClassifier.java:1717)
+	at edu.stanford.nlp.ie.AbstractSequenceClassifier.loadClassifierNoExceptions(AbstractSequenceClassifier.java:1668)
+	at edu.stanford.nlp.ie.AbstractSequenceClassifier.loadClassifierNoExceptions(AbstractSequenceClassifier.java:1651)
+	at edu.stanford.nlp.ie.crf.CRFClassifier.getClassifierNoExceptions(CRFClassifier.java:3519)
+	at edu.cmu.deiis.annotators.WordFeatureAnnotator.initialize(WordFeatureAnnotator.java:82)
+	at org.apache.uima.analysis_engine.impl.PrimitiveAnalysisEngine_impl.initializeAnalysisComponent(PrimitiveAnalysisEngine_impl.java:250)
+	... 16 more
+Caused by: java.io.FileNotFoundException: src/main/resources/stanfordModels/english.all.3class.distsim.crf.ser.gz (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:120)
+	at edu.stanford.nlp.ie.AbstractSequenceClassifier.loadClassifier(AbstractSequenceClassifier.java:1699)
+	at edu.stanford.nlp.ie.AbstractSequenceClassifier.loadClassifierNoExceptions(AbstractSequenceClassifier.java:1714)
+	... 21 more
 
-10/8/13 3:31:29 PM - 11: org.apache.uima.adapter.jms.activemq.SpringContainerDeployer.notifyOnInitializationFailure: WARNING: Top Level Controller Initialization Exception.
-org.apache.uima.resource.ResourceInitializationException: An import could not be resolved.  No .xml file with name "descriptors.WordFeatureAnnotator" was found in the class path or data path. (Descriptor: file:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/src/main/resources/hw2-weizhan1-aae.xml)
-	at org.apache.uima.analysis_engine.impl.AggregateAnalysisEngine_impl.initialize(AggregateAnalysisEngine_impl.java:159)
+10/9/13 12:09:26 AM - 11: org.apache.uima.adapter.jms.activemq.SpringContainerDeployer.notifyOnInitializationFailure: WARNING: Top Level Controller Initialization Exception.
+org.apache.uima.resource.ResourceInitializationException: Initialization of annotator class "edu.cmu.deiis.annotators.WordFeatureAnnotator" failed.  (Descriptor: jar:file:/users/indri/git/hw3-weizhan1/hw3-weizhan1/target/hw3-weizhan1-0.0.2.jar!/descriptors/WordFeatureAnnotator.xml)
+	at org.apache.uima.analysis_engine.impl.PrimitiveAnalysisEngine_impl.initializeAnalysisComponent(PrimitiveAnalysisEngine_impl.java:252)
+	at org.apache.uima.analysis_engine.impl.PrimitiveAnalysisEngine_impl.initialize(PrimitiveAnalysisEngine_impl.java:156)
+	at org.apache.uima.impl.AnalysisEngineFactory_impl.produceResource(AnalysisEngineFactory_impl.java:94)
+	at org.apache.uima.impl.CompositeResourceFactory_impl.produceResource(CompositeResourceFactory_impl.java:62)
+	at org.apache.uima.UIMAFramework.produceResource(UIMAFramework.java:269)
+	at org.apache.uima.UIMAFramework.produceAnalysisEngine(UIMAFramework.java:387)
+	at org.apache.uima.analysis_engine.asb.impl.ASB_impl.setup(ASB_impl.java:254)
+	at org.apache.uima.analysis_engine.impl.AggregateAnalysisEngine_impl.initASB(AggregateAnalysisEngine_impl.java:431)
+	at org.apache.uima.analysis_engine.impl.AggregateAnalysisEngine_impl.initializeAggregateAnalysisEngine(AggregateAnalysisEngine_impl.java:375)
+	at org.apache.uima.analysis_engine.impl.AggregateAnalysisEngine_impl.initialize(AggregateAnalysisEngine_impl.java:185)
 	at org.apache.uima.impl.AnalysisEngineFactory_impl.produceResource(AnalysisEngineFactory_impl.java:94)
 	at org.apache.uima.impl.CompositeResourceFactory_impl.produceResource(CompositeResourceFactory_impl.java:62)
 	at org.apache.uima.UIMAFramework.produceResource(UIMAFramework.java:269)
@@ -52,17 +77,33 @@ org.apache.uima.resource.ResourceInitializationException: An import could not be
 	at org.apache.uima.aae.controller.PrimitiveAnalysisEngineController_impl.initializeAnalysisEngine(PrimitiveAnalysisEngineController_impl.java:186)
 	at org.apache.uima.aae.UimaAsThreadFactory$1.run(UimaAsThreadFactory.java:114)
 	at java.lang.Thread.run(Thread.java:680)
-Caused by: org.apache.uima.util.InvalidXMLException: An import could not be resolved.  No .xml file with name "descriptors.WordFeatureAnnotator" was found in the class path or data path. (Descriptor: file:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/src/main/resources/hw2-weizhan1-aae.xml)
-	at org.apache.uima.resource.metadata.impl.Import_impl.findAbsoluteUrl(Import_impl.java:107)
-	at org.apache.uima.analysis_engine.impl.AnalysisEngineDescription_impl.resolveDelegateAnalysisEngineImports(AnalysisEngineDescription_impl.java:798)
-	at org.apache.uima.analysis_engine.impl.AnalysisEngineDescription_impl.resolveDelegateAnalysisEngineImports(AnalysisEngineDescription_impl.java:765)
-	at org.apache.uima.analysis_engine.impl.AnalysisEngineDescription_impl.getDelegateAnalysisEngineSpecifiers(AnalysisEngineDescription_impl.java:193)
-	at org.apache.uima.analysis_engine.impl.AggregateAnalysisEngine_impl.initialize(AggregateAnalysisEngine_impl.java:147)
-	... 7 more
+Caused by: java.lang.RuntimeException: java.io.FileNotFoundException: src/main/resources/stanfordModels/english.all.3class.distsim.crf.ser.gz (No such file or directory)
+	at edu.stanford.nlp.ie.AbstractSequenceClassifier.loadClassifierNoExceptions(AbstractSequenceClassifier.java:1717)
+	at edu.stanford.nlp.ie.AbstractSequenceClassifier.loadClassifierNoExceptions(AbstractSequenceClassifier.java:1668)
+	at edu.stanford.nlp.ie.AbstractSequenceClassifier.loadClassifierNoExceptions(AbstractSequenceClassifier.java:1651)
+	at edu.stanford.nlp.ie.crf.CRFClassifier.getClassifierNoExceptions(CRFClassifier.java:3519)
+	at edu.cmu.deiis.annotators.WordFeatureAnnotator.initialize(WordFeatureAnnotator.java:82)
+	at org.apache.uima.analysis_engine.impl.PrimitiveAnalysisEngine_impl.initializeAnalysisComponent(PrimitiveAnalysisEngine_impl.java:250)
+	... 16 more
+Caused by: java.io.FileNotFoundException: src/main/resources/stanfordModels/english.all.3class.distsim.crf.ser.gz (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:120)
+	at edu.stanford.nlp.ie.AbstractSequenceClassifier.loadClassifier(AbstractSequenceClassifier.java:1699)
+	at edu.stanford.nlp.ie.AbstractSequenceClassifier.loadClassifierNoExceptions(AbstractSequenceClassifier.java:1714)
+	... 21 more
 
-10/8/13 3:31:29 PM - 11: org.apache.uima.adapter.jms.activemq.SpringContainerDeployer.notifyOnInitializationFailure: WARNING: Top Level Controller Initialization Exception.
-org.apache.uima.resource.ResourceInitializationException: An import could not be resolved.  No .xml file with name "descriptors.WordFeatureAnnotator" was found in the class path or data path. (Descriptor: file:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/src/main/resources/hw2-weizhan1-aae.xml)
-	at org.apache.uima.analysis_engine.impl.AggregateAnalysisEngine_impl.initialize(AggregateAnalysisEngine_impl.java:159)
+10/9/13 12:09:26 AM - 11: org.apache.uima.adapter.jms.activemq.SpringContainerDeployer.notifyOnInitializationFailure: WARNING: Top Level Controller Initialization Exception.
+org.apache.uima.resource.ResourceInitializationException: Initialization of annotator class "edu.cmu.deiis.annotators.WordFeatureAnnotator" failed.  (Descriptor: jar:file:/users/indri/git/hw3-weizhan1/hw3-weizhan1/target/hw3-weizhan1-0.0.2.jar!/descriptors/WordFeatureAnnotator.xml)
+	at org.apache.uima.analysis_engine.impl.PrimitiveAnalysisEngine_impl.initializeAnalysisComponent(PrimitiveAnalysisEngine_impl.java:252)
+	at org.apache.uima.analysis_engine.impl.PrimitiveAnalysisEngine_impl.initialize(PrimitiveAnalysisEngine_impl.java:156)
+	at org.apache.uima.impl.AnalysisEngineFactory_impl.produceResource(AnalysisEngineFactory_impl.java:94)
+	at org.apache.uima.impl.CompositeResourceFactory_impl.produceResource(CompositeResourceFactory_impl.java:62)
+	at org.apache.uima.UIMAFramework.produceResource(UIMAFramework.java:269)
+	at org.apache.uima.UIMAFramework.produceAnalysisEngine(UIMAFramework.java:387)
+	at org.apache.uima.analysis_engine.asb.impl.ASB_impl.setup(ASB_impl.java:254)
+	at org.apache.uima.analysis_engine.impl.AggregateAnalysisEngine_impl.initASB(AggregateAnalysisEngine_impl.java:431)
+	at org.apache.uima.analysis_engine.impl.AggregateAnalysisEngine_impl.initializeAggregateAnalysisEngine(AggregateAnalysisEngine_impl.java:375)
+	at org.apache.uima.analysis_engine.impl.AggregateAnalysisEngine_impl.initialize(AggregateAnalysisEngine_impl.java:185)
 	at org.apache.uima.impl.AnalysisEngineFactory_impl.produceResource(AnalysisEngineFactory_impl.java:94)
 	at org.apache.uima.impl.CompositeResourceFactory_impl.produceResource(CompositeResourceFactory_impl.java:62)
 	at org.apache.uima.UIMAFramework.produceResource(UIMAFramework.java:269)
@@ -70,16 +111,23 @@ org.apache.uima.resource.ResourceInitializationException: An import could not be
 	at org.apache.uima.aae.controller.PrimitiveAnalysisEngineController_impl.initializeAnalysisEngine(PrimitiveAnalysisEngineController_impl.java:186)
 	at org.apache.uima.aae.UimaAsThreadFactory$1.run(UimaAsThreadFactory.java:114)
 	at java.lang.Thread.run(Thread.java:680)
-Caused by: org.apache.uima.util.InvalidXMLException: An import could not be resolved.  No .xml file with name "descriptors.WordFeatureAnnotator" was found in the class path or data path. (Descriptor: file:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/src/main/resources/hw2-weizhan1-aae.xml)
-	at org.apache.uima.resource.metadata.impl.Import_impl.findAbsoluteUrl(Import_impl.java:107)
-	at org.apache.uima.analysis_engine.impl.AnalysisEngineDescription_impl.resolveDelegateAnalysisEngineImports(AnalysisEngineDescription_impl.java:798)
-	at org.apache.uima.analysis_engine.impl.AnalysisEngineDescription_impl.resolveDelegateAnalysisEngineImports(AnalysisEngineDescription_impl.java:765)
-	at org.apache.uima.analysis_engine.impl.AnalysisEngineDescription_impl.getDelegateAnalysisEngineSpecifiers(AnalysisEngineDescription_impl.java:193)
-	at org.apache.uima.analysis_engine.impl.AggregateAnalysisEngine_impl.initialize(AggregateAnalysisEngine_impl.java:147)
-	... 7 more
+Caused by: java.lang.RuntimeException: java.io.FileNotFoundException: src/main/resources/stanfordModels/english.all.3class.distsim.crf.ser.gz (No such file or directory)
+	at edu.stanford.nlp.ie.AbstractSequenceClassifier.loadClassifierNoExceptions(AbstractSequenceClassifier.java:1717)
+	at edu.stanford.nlp.ie.AbstractSequenceClassifier.loadClassifierNoExceptions(AbstractSequenceClassifier.java:1668)
+	at edu.stanford.nlp.ie.AbstractSequenceClassifier.loadClassifierNoExceptions(AbstractSequenceClassifier.java:1651)
+	at edu.stanford.nlp.ie.crf.CRFClassifier.getClassifierNoExceptions(CRFClassifier.java:3519)
+	at edu.cmu.deiis.annotators.WordFeatureAnnotator.initialize(WordFeatureAnnotator.java:82)
+	at org.apache.uima.analysis_engine.impl.PrimitiveAnalysisEngine_impl.initializeAnalysisComponent(PrimitiveAnalysisEngine_impl.java:250)
+	... 16 more
+Caused by: java.io.FileNotFoundException: src/main/resources/stanfordModels/english.all.3class.distsim.crf.ser.gz (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:120)
+	at edu.stanford.nlp.ie.AbstractSequenceClassifier.loadClassifier(AbstractSequenceClassifier.java:1699)
+	at edu.stanford.nlp.ie.AbstractSequenceClassifier.loadClassifierNoExceptions(AbstractSequenceClassifier.java:1714)
+	... 21 more
 
-10/8/13 3:31:29 PM - 10: org.apache.uima.adapter.jms.activemq.SpringContainerDeployer.initializeContainer: WARNING: 
-org.apache.uima.resource.ResourceInitializationException: An import could not be resolved.  No .xml file with name "descriptors.WordFeatureAnnotator" was found in the class path or data path. (Descriptor: file:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/src/main/resources/hw2-weizhan1-aae.xml)
+10/9/13 12:09:26 AM - 10: org.apache.uima.adapter.jms.activemq.SpringContainerDeployer.initializeContainer: WARNING: 
+org.apache.uima.resource.ResourceInitializationException: Initialization of annotator class "edu.cmu.deiis.annotators.WordFeatureAnnotator" failed.  (Descriptor: jar:file:/users/indri/git/hw3-weizhan1/hw3-weizhan1/target/hw3-weizhan1-0.0.2.jar!/descriptors/WordFeatureAnnotator.xml)
 	at org.apache.uima.adapter.jms.activemq.SpringContainerDeployer.waitForServiceNotification(SpringContainerDeployer.java:516)
 	at org.apache.uima.adapter.jms.activemq.SpringContainerDeployer.initializeContainer(SpringContainerDeployer.java:301)
 	at org.apache.uima.adapter.jms.activemq.SpringContainerDeployer.deploy(SpringContainerDeployer.java:461)
@@ -90,8 +138,17 @@ org.apache.uima.resource.ResourceInitializationException: An import could not be
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
 	at java.lang.reflect.Method.invoke(Method.java:597)
 	at org.apache.uima.bootstrap.UimaBootstrap.main(UimaBootstrap.java:98)
-Caused by: org.apache.uima.resource.ResourceInitializationException: An import could not be resolved.  No .xml file with name "descriptors.WordFeatureAnnotator" was found in the class path or data path. (Descriptor: file:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/src/main/resources/hw2-weizhan1-aae.xml)
-	at org.apache.uima.analysis_engine.impl.AggregateAnalysisEngine_impl.initialize(AggregateAnalysisEngine_impl.java:159)
+Caused by: org.apache.uima.resource.ResourceInitializationException: Initialization of annotator class "edu.cmu.deiis.annotators.WordFeatureAnnotator" failed.  (Descriptor: jar:file:/users/indri/git/hw3-weizhan1/hw3-weizhan1/target/hw3-weizhan1-0.0.2.jar!/descriptors/WordFeatureAnnotator.xml)
+	at org.apache.uima.analysis_engine.impl.PrimitiveAnalysisEngine_impl.initializeAnalysisComponent(PrimitiveAnalysisEngine_impl.java:252)
+	at org.apache.uima.analysis_engine.impl.PrimitiveAnalysisEngine_impl.initialize(PrimitiveAnalysisEngine_impl.java:156)
+	at org.apache.uima.impl.AnalysisEngineFactory_impl.produceResource(AnalysisEngineFactory_impl.java:94)
+	at org.apache.uima.impl.CompositeResourceFactory_impl.produceResource(CompositeResourceFactory_impl.java:62)
+	at org.apache.uima.UIMAFramework.produceResource(UIMAFramework.java:269)
+	at org.apache.uima.UIMAFramework.produceAnalysisEngine(UIMAFramework.java:387)
+	at org.apache.uima.analysis_engine.asb.impl.ASB_impl.setup(ASB_impl.java:254)
+	at org.apache.uima.analysis_engine.impl.AggregateAnalysisEngine_impl.initASB(AggregateAnalysisEngine_impl.java:431)
+	at org.apache.uima.analysis_engine.impl.AggregateAnalysisEngine_impl.initializeAggregateAnalysisEngine(AggregateAnalysisEngine_impl.java:375)
+	at org.apache.uima.analysis_engine.impl.AggregateAnalysisEngine_impl.initialize(AggregateAnalysisEngine_impl.java:185)
 	at org.apache.uima.impl.AnalysisEngineFactory_impl.produceResource(AnalysisEngineFactory_impl.java:94)
 	at org.apache.uima.impl.CompositeResourceFactory_impl.produceResource(CompositeResourceFactory_impl.java:62)
 	at org.apache.uima.UIMAFramework.produceResource(UIMAFramework.java:269)
@@ -99,38 +156,45 @@ Caused by: org.apache.uima.resource.ResourceInitializationException: An import c
 	at org.apache.uima.aae.controller.PrimitiveAnalysisEngineController_impl.initializeAnalysisEngine(PrimitiveAnalysisEngineController_impl.java:186)
 	at org.apache.uima.aae.UimaAsThreadFactory$1.run(UimaAsThreadFactory.java:114)
 	at java.lang.Thread.run(Thread.java:680)
-Caused by: org.apache.uima.util.InvalidXMLException: An import could not be resolved.  No .xml file with name "descriptors.WordFeatureAnnotator" was found in the class path or data path. (Descriptor: file:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/src/main/resources/hw2-weizhan1-aae.xml)
-	at org.apache.uima.resource.metadata.impl.Import_impl.findAbsoluteUrl(Import_impl.java:107)
-	at org.apache.uima.analysis_engine.impl.AnalysisEngineDescription_impl.resolveDelegateAnalysisEngineImports(AnalysisEngineDescription_impl.java:798)
-	at org.apache.uima.analysis_engine.impl.AnalysisEngineDescription_impl.resolveDelegateAnalysisEngineImports(AnalysisEngineDescription_impl.java:765)
-	at org.apache.uima.analysis_engine.impl.AnalysisEngineDescription_impl.getDelegateAnalysisEngineSpecifiers(AnalysisEngineDescription_impl.java:193)
-	at org.apache.uima.analysis_engine.impl.AggregateAnalysisEngine_impl.initialize(AggregateAnalysisEngine_impl.java:147)
-	... 7 more
+Caused by: java.lang.RuntimeException: java.io.FileNotFoundException: src/main/resources/stanfordModels/english.all.3class.distsim.crf.ser.gz (No such file or directory)
+	at edu.stanford.nlp.ie.AbstractSequenceClassifier.loadClassifierNoExceptions(AbstractSequenceClassifier.java:1717)
+	at edu.stanford.nlp.ie.AbstractSequenceClassifier.loadClassifierNoExceptions(AbstractSequenceClassifier.java:1668)
+	at edu.stanford.nlp.ie.AbstractSequenceClassifier.loadClassifierNoExceptions(AbstractSequenceClassifier.java:1651)
+	at edu.stanford.nlp.ie.crf.CRFClassifier.getClassifierNoExceptions(CRFClassifier.java:3519)
+	at edu.cmu.deiis.annotators.WordFeatureAnnotator.initialize(WordFeatureAnnotator.java:82)
+	at org.apache.uima.analysis_engine.impl.PrimitiveAnalysisEngine_impl.initializeAnalysisComponent(PrimitiveAnalysisEngine_impl.java:250)
+	... 16 more
+Caused by: java.io.FileNotFoundException: src/main/resources/stanfordModels/english.all.3class.distsim.crf.ser.gz (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:120)
+	at edu.stanford.nlp.ie.AbstractSequenceClassifier.loadClassifier(AbstractSequenceClassifier.java:1699)
+	at edu.stanford.nlp.ie.AbstractSequenceClassifier.loadClassifierNoExceptions(AbstractSequenceClassifier.java:1714)
+	... 21 more
 
-10/8/13 3:31:29 PM - 11: org.apache.uima.aae.UimaAsThreadFactory$1.UimaAsThreadFactory.run(): INFO: Controller: hw2-weizhan1-aae --------------- Process Thread ID:15 EXITING
-10/8/13 3:31:29 PM - 10: org.apache.uima.aae.controller.PrimitiveAnalysisEngineController_impl.terminate: INFO: Controller: hw2-weizhan1-aae Received Terminate Event
-10/8/13 3:31:29 PM - 11: org.apache.uima.aae.UimaAsThreadFactory$1.UimaAsThreadFactory.run(): INFO: Controller: hw2-weizhan1-aae --------------- AE destroy() Method Call Returned ID:15
-10/8/13 3:31:29 PM - 10: org.apache.uima.adapter.jms.activemq.JmsInputChannel.stopChannel: INFO: Stopping Service JMS Transport. Service: weizhan1Queue ShutdownNow true
-10/8/13 3:31:29 PM - 10: org.apache.uima.adapter.jms.activemq.JmsInputChannel.stopChannel: INFO: Controller: hw2-weizhan1-aae Stopped Listener on Endpoint: queue://weizhan1Queue Selector:  Selector:Command=2000 OR Command=2002. 
-10/8/13 3:31:29 PM - 12: org.apache.uima.adapter.jms.activemq.UimaDefaultMessageListenerContainer$3.destroy: WARNING: 
+10/9/13 12:09:26 AM - 11: org.apache.uima.aae.UimaAsThreadFactory$1.UimaAsThreadFactory.run(): INFO: Controller: hw2-weizhan1-aae --------------- Process Thread ID:15 EXITING
+10/9/13 12:09:26 AM - 11: org.apache.uima.aae.UimaAsThreadFactory$1.UimaAsThreadFactory.run(): INFO: Controller: hw2-weizhan1-aae --------------- AE destroy() Method Call Returned ID:15
+10/9/13 12:09:26 AM - 10: org.apache.uima.aae.controller.PrimitiveAnalysisEngineController_impl.terminate: INFO: Controller: hw2-weizhan1-aae Received Terminate Event
+10/9/13 12:09:26 AM - 10: org.apache.uima.adapter.jms.activemq.JmsInputChannel.stopChannel: INFO: Stopping Service JMS Transport. Service: weizhan1Queue ShutdownNow true
+10/9/13 12:09:26 AM - 10: org.apache.uima.adapter.jms.activemq.JmsInputChannel.stopChannel: INFO: Controller: hw2-weizhan1-aae Stopped Listener on Endpoint: queue://weizhan1Queue Selector:  Selector:Command=2000 OR Command=2002. 
+10/9/13 12:09:26 AM - 12: org.apache.uima.adapter.jms.activemq.UimaDefaultMessageListenerContainer$3.destroy: WARNING: 
 org.springframework.jms.listener.AbstractJmsListeningContainer$SharedConnectionNotInitializedException: This listener container's shared Connection has not been initialized yet
 	at org.springframework.jms.listener.AbstractJmsListeningContainer.getSharedConnection(AbstractJmsListeningContainer.java:483)
 	at org.apache.uima.adapter.jms.activemq.UimaDefaultMessageListenerContainer.access$2000(UimaDefaultMessageListenerContainer.java:69)
 	at org.apache.uima.adapter.jms.activemq.UimaDefaultMessageListenerContainer$3.run(UimaDefaultMessageListenerContainer.java:1010)
 
-10/8/13 3:31:29 PM - 10: org.apache.uima.adapter.jms.activemq.JmsInputChannel.stopChannel: INFO: Stopping Service JMS Transport. Service: weizhan1Queue ShutdownNow true
-10/8/13 3:31:29 PM - 10: org.apache.uima.adapter.jms.activemq.JmsInputChannel.stopChannel: INFO: Controller: hw2-weizhan1-aae Stopped Listener on Endpoint: queue://weizhan1Queue Selector:  Selector:Command=2001. 
-10/8/13 3:31:29 PM - 10: org.apache.uima.aae.controller.PrimitiveAnalysisEngineController_impl.stop: INFO: Stopping Controller: hw2-weizhan1-aae
-10/8/13 3:31:29 PM - 13: org.apache.uima.adapter.jms.activemq.UimaDefaultMessageListenerContainer$3.destroy: WARNING: 
+10/9/13 12:09:26 AM - 10: org.apache.uima.adapter.jms.activemq.JmsInputChannel.stopChannel: INFO: Stopping Service JMS Transport. Service: weizhan1Queue ShutdownNow true
+10/9/13 12:09:26 AM - 10: org.apache.uima.adapter.jms.activemq.JmsInputChannel.stopChannel: INFO: Controller: hw2-weizhan1-aae Stopped Listener on Endpoint: queue://weizhan1Queue Selector:  Selector:Command=2001. 
+10/9/13 12:09:26 AM - 10: org.apache.uima.aae.controller.PrimitiveAnalysisEngineController_impl.stop: INFO: Stopping Controller: hw2-weizhan1-aae
+10/9/13 12:09:26 AM - 10: org.apache.uima.adapter.jms.activemq.JmsOutputChannel.stop: INFO: Controller: weizhan1Queue Output Channel Shutdown Completed
+10/9/13 12:09:26 AM - 13: org.apache.uima.adapter.jms.activemq.UimaDefaultMessageListenerContainer$3.destroy: WARNING: 
 org.springframework.jms.listener.AbstractJmsListeningContainer$SharedConnectionNotInitializedException: This listener container's shared Connection has not been initialized yet
 	at org.springframework.jms.listener.AbstractJmsListeningContainer.getSharedConnection(AbstractJmsListeningContainer.java:483)
 	at org.apache.uima.adapter.jms.activemq.UimaDefaultMessageListenerContainer.access$2000(UimaDefaultMessageListenerContainer.java:69)
 	at org.apache.uima.adapter.jms.activemq.UimaDefaultMessageListenerContainer$3.run(UimaDefaultMessageListenerContainer.java:1010)
 
-10/8/13 3:31:29 PM - 10: org.apache.uima.adapter.jms.activemq.JmsOutputChannel.stop: INFO: Controller: weizhan1Queue Output Channel Shutdown Completed
-10/8/13 3:31:29 PM - 10: org.apache.uima.aae.controller.PrimitiveAnalysisEngineController_impl.stop: INFO: Controller: hw2-weizhan1-aae has stopped
-10/8/13 3:31:29 PM - 10: org.apache.uima.adapter.jms.activemq.SpringContainerDeployer.deploy: WARNING: 
-org.apache.uima.resource.ResourceInitializationException: An import could not be resolved.  No .xml file with name "descriptors.WordFeatureAnnotator" was found in the class path or data path. (Descriptor: file:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/src/main/resources/hw2-weizhan1-aae.xml)
+10/9/13 12:09:26 AM - 10: org.apache.uima.aae.controller.PrimitiveAnalysisEngineController_impl.stop: INFO: Controller: hw2-weizhan1-aae has stopped
+10/9/13 12:09:26 AM - 10: org.apache.uima.adapter.jms.activemq.SpringContainerDeployer.deploy: WARNING: 
+org.apache.uima.resource.ResourceInitializationException: Initialization of annotator class "edu.cmu.deiis.annotators.WordFeatureAnnotator" failed.  (Descriptor: jar:file:/users/indri/git/hw3-weizhan1/hw3-weizhan1/target/hw3-weizhan1-0.0.2.jar!/descriptors/WordFeatureAnnotator.xml)
 	at org.apache.uima.adapter.jms.activemq.SpringContainerDeployer.waitForServiceNotification(SpringContainerDeployer.java:516)
 	at org.apache.uima.adapter.jms.activemq.SpringContainerDeployer.initializeContainer(SpringContainerDeployer.java:301)
 	at org.apache.uima.adapter.jms.activemq.SpringContainerDeployer.deploy(SpringContainerDeployer.java:461)
@@ -141,8 +205,17 @@ org.apache.uima.resource.ResourceInitializationException: An import could not be
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
 	at java.lang.reflect.Method.invoke(Method.java:597)
 	at org.apache.uima.bootstrap.UimaBootstrap.main(UimaBootstrap.java:98)
-Caused by: org.apache.uima.resource.ResourceInitializationException: An import could not be resolved.  No .xml file with name "descriptors.WordFeatureAnnotator" was found in the class path or data path. (Descriptor: file:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/src/main/resources/hw2-weizhan1-aae.xml)
-	at org.apache.uima.analysis_engine.impl.AggregateAnalysisEngine_impl.initialize(AggregateAnalysisEngine_impl.java:159)
+Caused by: org.apache.uima.resource.ResourceInitializationException: Initialization of annotator class "edu.cmu.deiis.annotators.WordFeatureAnnotator" failed.  (Descriptor: jar:file:/users/indri/git/hw3-weizhan1/hw3-weizhan1/target/hw3-weizhan1-0.0.2.jar!/descriptors/WordFeatureAnnotator.xml)
+	at org.apache.uima.analysis_engine.impl.PrimitiveAnalysisEngine_impl.initializeAnalysisComponent(PrimitiveAnalysisEngine_impl.java:252)
+	at org.apache.uima.analysis_engine.impl.PrimitiveAnalysisEngine_impl.initialize(PrimitiveAnalysisEngine_impl.java:156)
+	at org.apache.uima.impl.AnalysisEngineFactory_impl.produceResource(AnalysisEngineFactory_impl.java:94)
+	at org.apache.uima.impl.CompositeResourceFactory_impl.produceResource(CompositeResourceFactory_impl.java:62)
+	at org.apache.uima.UIMAFramework.produceResource(UIMAFramework.java:269)
+	at org.apache.uima.UIMAFramework.produceAnalysisEngine(UIMAFramework.java:387)
+	at org.apache.uima.analysis_engine.asb.impl.ASB_impl.setup(ASB_impl.java:254)
+	at org.apache.uima.analysis_engine.impl.AggregateAnalysisEngine_impl.initASB(AggregateAnalysisEngine_impl.java:431)
+	at org.apache.uima.analysis_engine.impl.AggregateAnalysisEngine_impl.initializeAggregateAnalysisEngine(AggregateAnalysisEngine_impl.java:375)
+	at org.apache.uima.analysis_engine.impl.AggregateAnalysisEngine_impl.initialize(AggregateAnalysisEngine_impl.java:185)
 	at org.apache.uima.impl.AnalysisEngineFactory_impl.produceResource(AnalysisEngineFactory_impl.java:94)
 	at org.apache.uima.impl.CompositeResourceFactory_impl.produceResource(CompositeResourceFactory_impl.java:62)
 	at org.apache.uima.UIMAFramework.produceResource(UIMAFramework.java:269)
@@ -150,16 +223,23 @@ Caused by: org.apache.uima.resource.ResourceInitializationException: An import c
 	at org.apache.uima.aae.controller.PrimitiveAnalysisEngineController_impl.initializeAnalysisEngine(PrimitiveAnalysisEngineController_impl.java:186)
 	at org.apache.uima.aae.UimaAsThreadFactory$1.run(UimaAsThreadFactory.java:114)
 	at java.lang.Thread.run(Thread.java:680)
-Caused by: org.apache.uima.util.InvalidXMLException: An import could not be resolved.  No .xml file with name "descriptors.WordFeatureAnnotator" was found in the class path or data path. (Descriptor: file:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/src/main/resources/hw2-weizhan1-aae.xml)
-	at org.apache.uima.resource.metadata.impl.Import_impl.findAbsoluteUrl(Import_impl.java:107)
-	at org.apache.uima.analysis_engine.impl.AnalysisEngineDescription_impl.resolveDelegateAnalysisEngineImports(AnalysisEngineDescription_impl.java:798)
-	at org.apache.uima.analysis_engine.impl.AnalysisEngineDescription_impl.resolveDelegateAnalysisEngineImports(AnalysisEngineDescription_impl.java:765)
-	at org.apache.uima.analysis_engine.impl.AnalysisEngineDescription_impl.getDelegateAnalysisEngineSpecifiers(AnalysisEngineDescription_impl.java:193)
-	at org.apache.uima.analysis_engine.impl.AggregateAnalysisEngine_impl.initialize(AggregateAnalysisEngine_impl.java:147)
-	... 7 more
+Caused by: java.lang.RuntimeException: java.io.FileNotFoundException: src/main/resources/stanfordModels/english.all.3class.distsim.crf.ser.gz (No such file or directory)
+	at edu.stanford.nlp.ie.AbstractSequenceClassifier.loadClassifierNoExceptions(AbstractSequenceClassifier.java:1717)
+	at edu.stanford.nlp.ie.AbstractSequenceClassifier.loadClassifierNoExceptions(AbstractSequenceClassifier.java:1668)
+	at edu.stanford.nlp.ie.AbstractSequenceClassifier.loadClassifierNoExceptions(AbstractSequenceClassifier.java:1651)
+	at edu.stanford.nlp.ie.crf.CRFClassifier.getClassifierNoExceptions(CRFClassifier.java:3519)
+	at edu.cmu.deiis.annotators.WordFeatureAnnotator.initialize(WordFeatureAnnotator.java:82)
+	at org.apache.uima.analysis_engine.impl.PrimitiveAnalysisEngine_impl.initializeAnalysisComponent(PrimitiveAnalysisEngine_impl.java:250)
+	... 16 more
+Caused by: java.io.FileNotFoundException: src/main/resources/stanfordModels/english.all.3class.distsim.crf.ser.gz (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:120)
+	at edu.stanford.nlp.ie.AbstractSequenceClassifier.loadClassifier(AbstractSequenceClassifier.java:1699)
+	at edu.stanford.nlp.ie.AbstractSequenceClassifier.loadClassifierNoExceptions(AbstractSequenceClassifier.java:1714)
+	... 21 more
 
-10/8/13 3:31:29 PM - 10: org.apache.uima.adapter.jms.service.UIMA_Service.main: WARNING: 
-org.apache.uima.resource.ResourceInitializationException: An import could not be resolved.  No .xml file with name "descriptors.WordFeatureAnnotator" was found in the class path or data path. (Descriptor: file:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/src/main/resources/hw2-weizhan1-aae.xml)
+10/9/13 12:09:26 AM - 10: org.apache.uima.adapter.jms.service.UIMA_Service.main: WARNING: 
+org.apache.uima.resource.ResourceInitializationException: Initialization of annotator class "edu.cmu.deiis.annotators.WordFeatureAnnotator" failed.  (Descriptor: jar:file:/users/indri/git/hw3-weizhan1/hw3-weizhan1/target/hw3-weizhan1-0.0.2.jar!/descriptors/WordFeatureAnnotator.xml)
 	at org.apache.uima.adapter.jms.activemq.SpringContainerDeployer.waitForServiceNotification(SpringContainerDeployer.java:516)
 	at org.apache.uima.adapter.jms.activemq.SpringContainerDeployer.initializeContainer(SpringContainerDeployer.java:301)
 	at org.apache.uima.adapter.jms.activemq.SpringContainerDeployer.deploy(SpringContainerDeployer.java:461)
@@ -170,8 +250,17 @@ org.apache.uima.resource.ResourceInitializationException: An import could not be
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
 	at java.lang.reflect.Method.invoke(Method.java:597)
 	at org.apache.uima.bootstrap.UimaBootstrap.main(UimaBootstrap.java:98)
-Caused by: org.apache.uima.resource.ResourceInitializationException: An import could not be resolved.  No .xml file with name "descriptors.WordFeatureAnnotator" was found in the class path or data path. (Descriptor: file:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/src/main/resources/hw2-weizhan1-aae.xml)
-	at org.apache.uima.analysis_engine.impl.AggregateAnalysisEngine_impl.initialize(AggregateAnalysisEngine_impl.java:159)
+Caused by: org.apache.uima.resource.ResourceInitializationException: Initialization of annotator class "edu.cmu.deiis.annotators.WordFeatureAnnotator" failed.  (Descriptor: jar:file:/users/indri/git/hw3-weizhan1/hw3-weizhan1/target/hw3-weizhan1-0.0.2.jar!/descriptors/WordFeatureAnnotator.xml)
+	at org.apache.uima.analysis_engine.impl.PrimitiveAnalysisEngine_impl.initializeAnalysisComponent(PrimitiveAnalysisEngine_impl.java:252)
+	at org.apache.uima.analysis_engine.impl.PrimitiveAnalysisEngine_impl.initialize(PrimitiveAnalysisEngine_impl.java:156)
+	at org.apache.uima.impl.AnalysisEngineFactory_impl.produceResource(AnalysisEngineFactory_impl.java:94)
+	at org.apache.uima.impl.CompositeResourceFactory_impl.produceResource(CompositeResourceFactory_impl.java:62)
+	at org.apache.uima.UIMAFramework.produceResource(UIMAFramework.java:269)
+	at org.apache.uima.UIMAFramework.produceAnalysisEngine(UIMAFramework.java:387)
+	at org.apache.uima.analysis_engine.asb.impl.ASB_impl.setup(ASB_impl.java:254)
+	at org.apache.uima.analysis_engine.impl.AggregateAnalysisEngine_impl.initASB(AggregateAnalysisEngine_impl.java:431)
+	at org.apache.uima.analysis_engine.impl.AggregateAnalysisEngine_impl.initializeAggregateAnalysisEngine(AggregateAnalysisEngine_impl.java:375)
+	at org.apache.uima.analysis_engine.impl.AggregateAnalysisEngine_impl.initialize(AggregateAnalysisEngine_impl.java:185)
 	at org.apache.uima.impl.AnalysisEngineFactory_impl.produceResource(AnalysisEngineFactory_impl.java:94)
 	at org.apache.uima.impl.CompositeResourceFactory_impl.produceResource(CompositeResourceFactory_impl.java:62)
 	at org.apache.uima.UIMAFramework.produceResource(UIMAFramework.java:269)
@@ -179,11 +268,18 @@ Caused by: org.apache.uima.resource.ResourceInitializationException: An import c
 	at org.apache.uima.aae.controller.PrimitiveAnalysisEngineController_impl.initializeAnalysisEngine(PrimitiveAnalysisEngineController_impl.java:186)
 	at org.apache.uima.aae.UimaAsThreadFactory$1.run(UimaAsThreadFactory.java:114)
 	at java.lang.Thread.run(Thread.java:680)
-Caused by: org.apache.uima.util.InvalidXMLException: An import could not be resolved.  No .xml file with name "descriptors.WordFeatureAnnotator" was found in the class path or data path. (Descriptor: file:/Users/indri/git/hw3-weizhan1/hw3-weizhan1/src/main/resources/hw2-weizhan1-aae.xml)
-	at org.apache.uima.resource.metadata.impl.Import_impl.findAbsoluteUrl(Import_impl.java:107)
-	at org.apache.uima.analysis_engine.impl.AnalysisEngineDescription_impl.resolveDelegateAnalysisEngineImports(AnalysisEngineDescription_impl.java:798)
-	at org.apache.uima.analysis_engine.impl.AnalysisEngineDescription_impl.resolveDelegateAnalysisEngineImports(AnalysisEngineDescription_impl.java:765)
-	at org.apache.uima.analysis_engine.impl.AnalysisEngineDescription_impl.getDelegateAnalysisEngineSpecifiers(AnalysisEngineDescription_impl.java:193)
-	at org.apache.uima.analysis_engine.impl.AggregateAnalysisEngine_impl.initialize(AggregateAnalysisEngine_impl.java:147)
-	... 7 more
+Caused by: java.lang.RuntimeException: java.io.FileNotFoundException: src/main/resources/stanfordModels/english.all.3class.distsim.crf.ser.gz (No such file or directory)
+	at edu.stanford.nlp.ie.AbstractSequenceClassifier.loadClassifierNoExceptions(AbstractSequenceClassifier.java:1717)
+	at edu.stanford.nlp.ie.AbstractSequenceClassifier.loadClassifierNoExceptions(AbstractSequenceClassifier.java:1668)
+	at edu.stanford.nlp.ie.AbstractSequenceClassifier.loadClassifierNoExceptions(AbstractSequenceClassifier.java:1651)
+	at edu.stanford.nlp.ie.crf.CRFClassifier.getClassifierNoExceptions(CRFClassifier.java:3519)
+	at edu.cmu.deiis.annotators.WordFeatureAnnotator.initialize(WordFeatureAnnotator.java:82)
+	at org.apache.uima.analysis_engine.impl.PrimitiveAnalysisEngine_impl.initializeAnalysisComponent(PrimitiveAnalysisEngine_impl.java:250)
+	... 16 more
+Caused by: java.io.FileNotFoundException: src/main/resources/stanfordModels/english.all.3class.distsim.crf.ser.gz (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:120)
+	at edu.stanford.nlp.ie.AbstractSequenceClassifier.loadClassifier(AbstractSequenceClassifier.java:1699)
+	at edu.stanford.nlp.ie.AbstractSequenceClassifier.loadClassifierNoExceptions(AbstractSequenceClassifier.java:1714)
+	... 21 more
 
