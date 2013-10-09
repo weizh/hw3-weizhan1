@@ -84,11 +84,11 @@ public class WordFeatureAnnotator extends CasAnnotator_ImplBase implements TypeN
     // stem, pos tagging initialization
     Properties props = new Properties();
     props.put("annotators", "tokenize, ssplit, pos, lemma, parse");
-    props.put("pos.model", "src/main/resources/stanfordModels/english-left3words-distsim.tagger");
-    props.put("parse.model", "src/main/resources/stanfordModels/englishPCFG.ser.gz");
+    props.put("pos.model", "stanfordModels/english-left3words-distsim.tagger");
+    props.put("parse.model", "stanfordModels/englishPCFG.ser.gz");
     pipeline = new StanfordCoreNLP(props);
 
-    String grammar = "src/main/resources/stanfordModels/englishPCFG.ser.gz";
+    String grammar = "stanfordModels/englishPCFG.ser.gz";
     String[] options = { "-maxLength", "80", "-retainTmpSubcategories" };
     lp = LexicalizedParser.loadModel(grammar, options);
     tlp = lp.getOp().langpack();
